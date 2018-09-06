@@ -1,2 +1,2 @@
 # Programacion-I
-Asignatura de Programacion I - Grando Ingeniería Informática - Universidad Nebrija
+Asignatura de Programacion I - Grado Ingeniería Informática - Universidad Nebrija
