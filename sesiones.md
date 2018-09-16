@@ -10,10 +10,11 @@
     - 17 Septiembre 2018
     - [Lección 1. Hola Mundo](https://codebin.cc/2018/09/16/hola-mundo/)
     - [Lección 2. Programando la primera clase](https://codebin.cc/2018/09/16/leccion-2-programando-la-primera-clase/)
+    - [Lección 3. Entrada de datos. Condicionales](https://codebin.cc/2018/09/16/leccion-3-entrada-de-datos-por-el-usuario-condicionales/)
     - [Actividades](https://nebrija-my.sharepoint.com/:p:/g/personal/avalero_nebrija_es/EVbx6OnZllxNgiaHdERugs8BwgmQvCWTTwKvIqjJh7-ErA?e=HBcqZg) 
 
   - **Sesión 2**
     - 24 Septiembre 2018
-    - [Lección 3]
-    - [Lección 4]
+    - [Lección 5]
+    - [Lección 6]
     - Actividades: 
