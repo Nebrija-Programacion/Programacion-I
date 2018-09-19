@@ -2,24 +2,6 @@
 
 using namespace std;
 
-class Persona{
-
-public:
-    //constructor
-    Persona(string _nombre, unsigned short int _peso, string _mascotaFavorita)
-    {
-        nombre = _nombre;
-        peso = _peso;
-        mascotaFavorita = _mascotaFavorita;
-
-    }
-
-    //variables miembro (atributos)
-    string nombre;
-    string mascotaFavorita;
-    unsigned short peso;
-  };
-
 class Mascota{
 
 public:
@@ -29,19 +11,35 @@ public:
         nombre = _nombre;
         especie = _especie;
         edad = _edad;
-
     }
 
     //variables miembro (atributos)
     string nombre;
     string especie;
     unsigned short edad;
+    Mascota (){}
+  };
+class Persona{
+
+public:
+    //constructor
+    Persona(string _nombre, unsigned short int _peso, Mascota _mascota)
+    {
+        nombre = _nombre;
+        peso = _peso;
+        mascota = _mascota;
+    }
+
+    //variables miembro (atributos)
+    string nombre;
+    unsigned short peso;
+    Mascota mascota;
   };
 
 int main()
 {
-    Persona chico("Alberto", 85, "pastor aleman");
     Mascota perro("Hachiko","pastor aleman", 5);
-    cout << "Hola " << chico.nombre <<" tu mascota favorita es un " << perro.especie << " y se llama " << perro.nombre << endl;
+    Persona chico("Alberto", 85, perro);
+    cout << "Hola " << chico.nombre <<" tu mascota favorita es un " << chico.mascota.especie << " y se llama " << chico.mascota.nombre << endl;
     return 0;
 };
