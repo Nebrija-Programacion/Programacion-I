@@ -16,43 +16,47 @@ public:
     short int age;
     short int height;
     short int weigth;
+    int validate(){
+        if (age<= 0){ //the age must be between 1 and 149 years
+            cout<<endl<<"Invalid age. You must be alive in order to use this program"<<endl;
+        } else if (age >= 150){
+            cout<<endl<<"Invalid age. You must be alive in order to use this program"<<endl;
+        } else if (height<=20){ //the heigth must be between 20 a 300 cm
+            cout<<endl<<"Woww I didn't know that Elves had computers"<<endl;
+        } else if (height>=300){
+            cout<<endl<<"Orcs must die!!"<<endl;
+        }
+        else {
+            cout << "Name: "<< name<< endl;
+            cout << "Age: "<< age << endl;
+            cout << "Height: "<< height <<endl;
+            cout << "Weigth: "<< weigth <<endl;
+        }
+        return 1;
+    }
+    void form(){
+        cout << "Please, enter your name: ";
+        cin >> name;
+        cout << "Please, enter your age: ";
+        cin >> age;
+        cout << "Please, enter your heigth in cm: ";
+        cin >> height;
+        cout << "Please, enter your weigth in Kg: ";
+        cin >> weigth;
+    }
+
+
 };
 
 int main(){
-
     string name;
     short int age;
     short int height;
     short int weigth;
-    cout << "Please, enter your name: ";
-    cin >> name;
-    cout << "Please, enter your age: ";
-    cin >> age;
-    if (age<= 0){ //the age must be between 1 and 149 years
-        cout<<"Invalid age. You must be alive in order to use this program"<<endl;
-        return 1;
-    } else if (age >= 150){
-        cout<<"Invalid age. You must be alive in order to use this program"<<endl;
-        return 1;
-    }
-    cout << "Please, enter your heigth in cm: ";
-    cin >> height;
-    if (height<=20){ //the heigth must be between 20 a 300 cm
-        cout<<"Woww I didn't know that Elves had computers"<<endl;
-        return 2;
-    } else if (height>=300){
-        cout<<"Orcs must die!!"<<endl;
-        return 2;
-    }
-    cout << "Please, enter your weigth in kg: ";
-    cin >> weigth;
-
-
     Person p(name, age, height, weigth);
-        cout << "Name: "<< p.name<< endl;
-        cout << "Age: "<< p.age << endl;
-        cout << "Height: "<< p.height <<endl;
-        cout << "Weigth: "<< p.weigth <<endl;
+    p.form();
+    p.validate();
+
+    return 0;
+
 }
-
-
