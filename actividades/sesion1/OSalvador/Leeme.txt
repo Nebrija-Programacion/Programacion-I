@@ -1,0 +1,1 @@
+No soy capaz de utilizar Qt Creator. He escrito el código en notepad++ y he comprobado que funciona para mi en https://www.onlinegdb.com/online_c++_compiler el 22/9/18.
