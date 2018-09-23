@@ -21,7 +21,7 @@
     - [Lección 5. Gestión de errores con excepciones](https://codebin.cc/2018/09/16/leccion-5-gestion-de-errores-con-excepciones/)
     - [Lección 6. El bucle for](https://codebin.cc/2018/09/16/leccion-6-el-bucle-for/)
     - [Lección 7. El bucle while](https://codebin.cc/2018/09/16/leccion-7-el-bucle-while/)
-    - [Actividades]()
+    - [Actividades](https://nebrija-my.sharepoint.com/:p:/g/personal/avalero_nebrija_es/Ee9fkBteT-9Mjhg-LDdsMvcBOBphN7_nZNiXYBgZ7nuZew?e=HC7jc8)
     
   - **Práctica I**
 	- 28 Septiembre 2018
