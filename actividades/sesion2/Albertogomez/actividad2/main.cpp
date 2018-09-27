@@ -10,7 +10,7 @@ public:
     Numero(float num){
         number = num;
     }
-    int getNumber(){
+    float getNumber(){
         return number;
     }
     void divideBy(float otherNumber){
