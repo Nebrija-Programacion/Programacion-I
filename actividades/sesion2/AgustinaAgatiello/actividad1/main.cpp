@@ -30,6 +30,11 @@ public:
             altura = _altura;
             }
         }
+    int areaTriangulo(int base, int altura){
+        int area;
+        area = (base*altura)/2;
+        return area;
+    }
 
 private:
     unsigned short int base;
@@ -65,6 +70,16 @@ public:
         lado2 = _lado2;
         }
     }
+     int areaRectangulo(int lado1, int lado2){
+         int area;
+         area = lado1*lado2;
+         return area;
+     }
+     int perimetroRectangulo(int lado1, int lado2){
+         int area;
+         area = (lado1 + lado2)*2;
+         return area;
+     }
 
 private:
     unsigned short int lado1;
@@ -74,37 +89,22 @@ private:
 int main()
 {
     int base;
-    cout << "Introduzca la base: ";
+    cout << "Introduzca la base del triangulo: ";
     cin >> base;
     int altura;
-    cout << "Introduzca la altura: ";
+    cout << "Introduzca la altura del triangulo: ";
     cin >> altura;
-
-    int area1{1};
-
-    for (int contador{base};contador>1;contador--){
-        area1 = base * altura / 2;
-    }
-    cout << "El area es " << area1 << endl;
+    Triangulo miTriangulo(base, altura);
+    cout << "El area es " << miTriangulo.areaTriangulo(base,altura) << endl;
 
     int lado1;
-    cout << "Introduzca el lado 1: ";
+    cout << "Introduzca un lado del rectangulo: ";
     cin >> lado1;
     int lado2;
-    cout << "Introduzca el lado 2: ";
+    cout << "Introduzca el otro lado del rectangulo: ";
     cin >> lado2;
-
-    int area2{1};
-
-    for (int contador{lado1};contador>1;contador--){
-        area2 = lado1 * lado2;
-    }
-    int perimetro{1};
-
-    for (int contador{lado1};contador>1;contador--){
-        perimetro = lado1 + lado1 + lado2 + lado2;
-    }
-    cout << "El area es " << area2 << " y su perimetro " << perimetro << endl;
+    Rectangulo miRectangulo(lado1,lado2);
+    cout << "El area es " << miRectangulo.areaRectangulo(lado1,lado2) << " y su perimetro " << miRectangulo.perimetroRectangulo(lado1,lado2) << endl;
 
     return 0;
 }
