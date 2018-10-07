@@ -11,10 +11,8 @@ int fibonacci(int number){
 }
 int main()
 {
-    cout << "Estos son los primeros 20 numeros de la serie Fibonacci: " << endl;
-    int number{};
-    fibonacci(number);
-    for (int i{0}; i <= 20; i++){
+
+    for (int i{1}; i <= 20; i++){
     cout << fibonacci(i) << " " << endl;
     }
     return 0;
