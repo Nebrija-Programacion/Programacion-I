@@ -30,7 +30,17 @@
   - **Sesión 3**
 	- 28 Septiembre 2018
 	- Repaso de la Primera Parte.
+	
+
 
 ### Segunda Parte. C++11 en detalle
 
-  - **Sesión 4**
+   - **Sesión 4**
+    - 8 de Octubre 2018
+    - [Lección 8. Funciones (I)](https://codebin.cc/2018/10/07/leccion-8-las-funciones-i/)
+    - [Lección 9. Funciones (II). Parámetros por valor y por referencia](https://codebin.cc/2018/10/07/leccion-9-las-funciones-ii-parametros-por-valor-y-por-referencia/)
+    - [Actividad durante la clase](http://marca.com)
+    - [Actividades](https://marca.com)
+    
+   - **Sesión 5**
+    - 15 de Octubre 2018
