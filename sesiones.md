@@ -1,3 +1,4 @@
+
 ## Resumen de las sesiones 
 
 ### Primera Parte. Primer Contacto con C++11
@@ -35,12 +36,12 @@
 
 ### Segunda Parte. C++11 en detalle
 
-   - **Sesión 4**
-    - 8 de Octubre 2018
-    - [Lección 8. Funciones (I)](https://codebin.cc/2018/10/07/leccion-8-las-funciones-i/)
-    - [Lección 9. Funciones (II). Parámetros por valor y por referencia](https://codebin.cc/2018/10/07/leccion-9-las-funciones-ii-parametros-por-valor-y-por-referencia/)
-    - [Actividad durante la clase](https://github.com/Nebrija-Programacion-I-II/Programacion-I/blob/master/actividades/sesion4/actividadClase/enunciado.md)
-    - [Actividades](https://nebrija-my.sharepoint.com/:p:/g/personal/avalero_nebrija_es/EQZUkidoZztKl4pgpcXL2HwB-fcM9zmIrHaFiGzgtVXMEw?e=niHwis)
-    
-   - **Sesión 5**
+ - **Sesión 4**
+	  - 8 de Octubre 2018
+	  - [Lección 8. Funciones (I)](https://codebin.cc/2018/10/07/leccion-8-las-funciones-i/)
+	  - [Lección 9. Funciones (II). Parámetros por valor y por referencia](https://codebin.cc/2018/10/07/leccion-9-las-funciones-ii-parametros-por-valor-y-por-referencia/)
+	  - [Actividad durante la clase](https://github.com/Nebrija-Programacion-I-II/Programacion-I/blob/master/actividades/sesion4/actividadClase/enunciado.md)
+	  - [Actividades](https://nebrija-my.sharepoint.com/:p:/g/personal/avalero_nebrija_es/EQZUkidoZztKl4pgpcXL2HwB-fcM9zmIrHaFiGzgtVXMEw?e=niHwis)
+
+- **Sesión 5**
     - 15 de Octubre 2018
