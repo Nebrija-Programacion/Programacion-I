@@ -75,13 +75,12 @@ Un ejemplo de función main sería:
 
 Realizar una función que copia los valores de un vector en los de la clase. La funcion main quedaría del siguiente modo:
 
-    int main(){
-	
-	Vector3D miVector;
-	Vector3D otroVector{2,-1,4};
-	miVector.copyFrom(otroVector);
-	return 0;
-    }
+	int main(){
+		Vector3D miVector;
+		Vector3D otroVector{2,-1,4};
+		miVector.copyFrom(otroVector);
+		return 0;
+	}
 
 ### Paso V - Programa final
 
