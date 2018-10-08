@@ -73,7 +73,7 @@ Un ejemplo de función main sería:
 
 ### Paso IV - Función Copia
 
-Realizar una función que copia los valores de un vector en los de la clase. La funcion main quedaría del siguiente modo:
+Realizar una función miembro de la clase **copyFrom** que copia los valores de un vector en los de la clase. La funcion main quedaría del siguiente modo:
 
 	int main(){
 		Vector3D miVector;
@@ -82,7 +82,19 @@ Realizar una función que copia los valores de un vector en los de la clase. La 
 		return 0;
 	}
 
-### Paso V - Programa final
+### Paso V - Constructor Copia
+
+Realizar un constructor clase **Vector3D** que inicializa los atributos de la clase con los valores de otro vector. La funcion main quedaría del siguiente modo:
+
+	int main(){
+		Vector3D otroVector{2,-1,4};
+		Vector3D miVector{otroVector};
+		return 0;
+	}
+
+
+
+### Paso VI - Programa final
 
 Realizar un programa que realice los siguientes pasos:
 
