@@ -1,9 +1,9 @@
 #include <iostream>
-
 using namespace std;
+
 class NumeroComplejo{
 public:
-    NumeroComplejo(float r,float i){
+      NumeroComplejo(float r,float i){
         real_num = r;
         imaginary_num = i;
     }
@@ -14,16 +14,16 @@ public:
     }
 
     void multipliesBy(float r, float i){
-        real_num = real_num * r;
-        imaginary_num = imaginary_num * i;
+        float k, l;
+        k = (r*real_num)-(i*imaginary_num);
+        l = (i*real_num)+(r*imaginary_num);
+        real_num=k;
+        imaginary_num=l;
     }
     void getNumber(float &r, float &i){
         r = real_num;
         i = imaginary_num;
     }
-
-
-
 private:
     //atributos
     float real_num, imaginary_num;
