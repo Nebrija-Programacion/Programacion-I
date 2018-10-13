@@ -8,7 +8,7 @@ public:
         real = _r;
         imaginary = _i;
         }
-    float getNumber(float &r, float &i){
+    void getNumber(float &r, float &i){
         r = real;
         i = imaginary;
     }
