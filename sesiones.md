@@ -45,3 +45,8 @@
 
 - **Sesión 5**
     - 15 de Octubre 2018
+    - Algoritmos
+      - Repaso/ejercicios Condicionales
+      - Repaso/ejercicios bucle for
+      - Repaso/ejercicios bucle while
+      
