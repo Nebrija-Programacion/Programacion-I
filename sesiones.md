@@ -49,4 +49,5 @@
       - Repaso/ejercicios Condicionales
       - Repaso/ejercicios bucle for
       - Repaso/ejercicios bucle while
+    - [Actividades](https://github.com/Nebrija-Programacion-I-II/Programacion-I/blob/master/actividades/sesion5/readme.md)
       
