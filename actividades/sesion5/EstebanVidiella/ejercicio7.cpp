@@ -20,7 +20,7 @@ int main(void)
       cin >> opc;
   }
   media=suma/i;
-  cout << "la media total de los numeros introducidos es: " << media << endl;
+  cout << "la suma total de los numeros introducidos es: " << media << endl;
 
 
 
