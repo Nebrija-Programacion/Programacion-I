@@ -2,10 +2,26 @@
 
 using namespace std;
 
+bool esDivi(unsigned int a, unsigned int b){
+
+    if ((b > a)) return true;
+   else {
+       return false;
+   }
+}
+
 int main()
 {
-unsigned short int a,b;
-cout <<"introduce un numero : " << endl; cin >> a;
-cout <<"introduce otro numero : " << endl; cin >> b;
-if (a > b ) {cout << "el mayor es : " << a << endl;}else{if (b > a ) {cout << "el mayor es : " << b << endl;} else { cout << "son igueles" << endl;}}
-   }
+    unsigned int c,d;
+
+    cout << "Número mayor que 0: " << endl; cin >> c;
+    cout << "Número mayor que 0: " << endl; cin >> d;
+
+    if(esDivi(c,d)){
+        cout << "El 2 es > el 1" << endl;
+    }else{
+        cout << "El 1 es > el 2" << endl;
+
+return 0;
+    }
+}
