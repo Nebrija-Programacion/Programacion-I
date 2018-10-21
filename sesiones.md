@@ -31,10 +31,7 @@
   - **Sesión 3**
 	- 28 Septiembre 2018
 	- Repaso de la Primera Parte.
-	
 
-
-### Segunda Parte. C++11 en detalle
 
  - **Sesión 4**
 	  - 8 de Octubre 2018
@@ -45,3 +42,18 @@
 
 - **Sesión 5**
     - 15 de Octubre 2018
+    - Algoritmos
+      - Repaso/ejercicios Condicionales
+      - Repaso/ejercicios bucle for
+      - Repaso/ejercicios bucle while
+    - [Actividades](https://github.com/Nebrija-Programacion-I-II/Programacion-I/blob/master/actividades/sesion5/readme.md)
+    
+- **Sesión 6**
+    - 22 de Octubre 2018
+    - [Corrección 1er Examen Parcial](https://github.com/Nebrija-Programacion-I-II/Programacion-I/tree/master/examenes/Parcial1)
+    - [Corrección Actividades Sesión 5](https://github.com/Nebrija-Programacion-I-II/Programacion-I/blob/master/actividades/sesion5/)
+
+- **Práctica II**
+    - 26 de Octubre 2018
+    - [Guión de la Práctica]
+      
