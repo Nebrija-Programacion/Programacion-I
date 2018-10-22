@@ -50,6 +50,8 @@
     
 - **Sesión 6**
     - 22 de Octubre 2018
+    - [Los arrays](https://codebin.cc/2018/10/07/leccion-11-arrays/)
+    - [std::array](https://codebin.cc/2018/10/07/leccion-12-stdarray/)
     - [Corrección 1er Examen Parcial](https://github.com/Nebrija-Programacion-I-II/Programacion-I/tree/master/examenes/Parcial1)
     - [Corrección Actividades Sesión 5](https://github.com/Nebrija-Programacion-I-II/Programacion-I/blob/master/actividades/sesion5/)
 
