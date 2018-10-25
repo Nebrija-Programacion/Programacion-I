@@ -1,4 +1,4 @@
-# Práctica I
+# Práctica II
 
 ## Matrices 3 x 3
 
