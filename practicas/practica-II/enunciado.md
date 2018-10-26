@@ -1,14 +1,14 @@
-# Práctica I
+# Práctica II
 
-## Matrices
+## Matrices 3 x 3
 
 **TOTAL: 10 puntos - 1 punto cada paso**
 
-### Paso I - Crear una clase Matrix
+### Paso I - Crear una clase Matriz
 
 Crear una clase Matriz que contenga:
 
- - Un array de 9 números reales. Serán los elementos de la Matriz.
+ - Un array de 9 números reales. Serán los 9 elementos de la Matriz 3 x 3.
  - Un constructor que no reciba ningún parámetro.
  - Inicializar en el constructor el array con 0.
 
@@ -32,11 +32,7 @@ Crear una función miembro de la clase llamada getElement(). Debe:
 
 Crear una función miembro de la clase llamada print(). Debe:
 
- - Imprime por pantalla la matriz con este formato:
-
-    2		3  	-1
-    -1	0		-1
-    21	4		7
+ - Imprime por pantalla la matriz respetando filas y columnas
 
 **Nota: *cout << "\t";* imprime por pantalla un tabulado en blanco**   
 

@@ -57,5 +57,5 @@
 
 - **Práctica II**
     - 26 de Octubre 2018
-    - [Guión de la Práctica]
+    - [Guión de la Práctica](https://github.com/Nebrija-Programacion-I-II/Programacion-I/blob/master/practicas/practica-II/enunciado.md)
       
