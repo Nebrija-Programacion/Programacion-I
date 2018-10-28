@@ -58,4 +58,10 @@
 - **Práctica II**
     - 26 de Octubre 2018
     - [Guión de la Práctica](https://github.com/Nebrija-Programacion-I-II/Programacion-I/blob/master/practicas/practica-II/enunciado.md)
-      
+    - [Solución](https://github.com/Nebrija-Programacion-I-II/Programacion-I/tree/master/practicas/practica-II/solucion)
+    
+- **Sesión 7**
+    - 29 de Octubre 2018
+    - [std::vector](https://codebin.cc/2018/10/28/leccion-13-stdvector/)
+    - Actividades de clase.
+    - [Corrección Práctica II](https://github.com/Nebrija-Programacion-I-II/Programacion-I/tree/master/practicas/practica-II/solucion)
