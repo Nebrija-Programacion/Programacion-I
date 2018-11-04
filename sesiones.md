@@ -65,3 +65,9 @@
     - [std::vector](https://codebin.cc/2018/10/28/leccion-13-stdvector/)
     - Actividades de clase.
     - [Corrección Práctica II](https://github.com/Nebrija-Programacion-I-II/Programacion-I/tree/master/practicas/practica-II/solucion)
+
+- **Sesión 8**
+    - 5 de Noviembre 2018
+    - Repaso [std::array](https://codebin.cc/2018/10/07/leccion-12-stdarray/)
+    - Repaso [std:vector](https://codebin.cc/2018/10/28/leccion-13-stdvector/)
+    - Actividad guiada de clase.
