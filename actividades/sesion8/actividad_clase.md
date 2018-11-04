@@ -30,4 +30,4 @@ Estas funciónen deberá comprobar que ambos vectores se pueden sumar o multipli
 Entregar por gitHub como  un único proyecto de QtCreator (archivos .pro y .cpp)
 
  - Modificar la clase Vector para que sea genérica, es decir, que pueda albergar vectores de cualquier dimensión.
- - Modificar las funciones add(), scalarMultiply(), vectorialMultiply() acorde a la dimensión genérica
+ - Modificar las funciones add() y scalarMultiply() acorde a la dimensión genérica (no es necesario hacer el producto vectorial)
