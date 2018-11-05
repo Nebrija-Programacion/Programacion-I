@@ -1,3 +1,4 @@
+
 # Actividad Sesión 8
 
 ## Clase Genérica Vector
@@ -30,3 +31,6 @@ Entregar por gitHub como  un único proyecto de QtCreator (archivos .pro y .cpp)
 
  - Modificar la clase Vector para que sea genérica, es decir, que pueda albergar vectores de cualquier dimensión.
  - Modificar las funciones add() y scalarMultiply() acorde a la dimensión genérica.
+ - Crear una función genérica que devuelva verdadero si los vectores son perpendiculares en el espacio n-dimensional o falso en caso contrario.
+ - Crear una función genérica que devuelva el producto vectorial en dos vectores (sólo cuando los vectores son de 3 coordenadas).
+ - Utilizar la Matriz creada anteriormente (de 3x3) y hacer una función que devuelva el resultado de multiplicar una matriz por un vector (de 3 coordenadas).
