@@ -1,21 +1,17 @@
-
-**¡¡PROVISIONAL!!**
-
-
 # Trabajo II - Programación I
 
 *Equipos de 2 personas* - *Máximo 3 grupos por orden de solicitud*
 
-## Clase Matrices de 2x2, 3x3 y 4x4
+## Clase Matrices
 
 ## Enunciado
-Se deberá realizar una clase que pueda albergar Matrices de 2x2, 3x3 o 4x4. Posteriormente se realizará un programa que pregunte que trabaje con dicha clase.
+Se deberá realizar una clase que pueda albergar Matrices de cualquier dimensión. Posteriormente se realizará un programa que pregunte que trabaje con dicha clase.
 
 La clase debe contener las siguientes funciones (y todas aquellas que el estudiante considere necesario para completar el programa):
 
-  - Función para obtener el determinante de la matriz.
-  - Función para obtener la inversa de la matriz.
-  - Función para obtener la traspuesta de la matriz.
+  - Función para obtener el determinante de la matriz (si existe, si no existe debe dar un error).
+  - Función para obtener la inversa de la matriz (si existe, si no existe debe dar un error).
+  - Función para obtener la traspuesta de la matriz (si existe, si no existe debe dar un error).
   
 Además el programa debe contener las siguientes funciones globales:
 
