@@ -26,7 +26,7 @@ Crear las siguientes funciones globales (no forman parte de la clase)
 
 Estas funciónen deberá comprobar que ambos vectores se pueden sumar o multiplicar (tienen el mismo número de elementos).
 
-### Activicad para Casa (10 puntos).
+### Activicad para Casa (20 puntos).
 Entregar por gitHub como  un único proyecto de QtCreator (archivos .pro y .cpp)
 
  - Modificar la clase Vector para que sea genérica, es decir, que pueda albergar vectores de cualquier dimensión.
