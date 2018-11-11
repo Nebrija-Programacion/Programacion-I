@@ -1,6 +1,6 @@
 # Trabajo IV - Programación I
 
-*Equipos de 3 personas* - *Máximo 4 grupos por orden de solicitud*
+*Equipos de 4 personas* - *Máximo 4 grupos por orden de solicitud*
 
 ## Ruleta
 
