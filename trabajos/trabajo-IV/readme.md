@@ -12,11 +12,11 @@ En cada turno sucederá lo siguiente:
   - Cada jugador decide cuánto dinero quiere apostar en ese turno (o puede retirarse).
   - Cada jugador realiza una (y solo una) de las siguientes apuestas:
      - Rojo o Negro
-     - Numero de 1 a a 36
+     - Numero de 1 a 36
   - Después de que los 4 jugadores hayan hecho sus apuestas se lanza la ruleta.
   - Si sale el 0, todo el dinero va a la banca.
-  - Si se acierta color, se duplica el dinero apostado.
-  - Se si acierta número, se multiplica por 35 el dinero apostado.
+  - Si acierta color, se duplica el dinero apostado (los pares son rojos, los impares negros).
+  - Si acierta número, se multiplica por 35 el dinero apostado.
 
 ### Finalización del juego
   - El juego finalizará cuando todos los jugadores se hayan retirado (o no les quede dinero).
@@ -25,12 +25,12 @@ En cada turno sucederá lo siguiente:
   Al finalizar el juego se debe mostrar cuánto dinero ha ganado cada jugador y cuánto dinero ha ganado la banca.
 
 ## Notas
-  - El programa debe comprobar en todo momento que los datos introducidos por el usuario y las operaciones a realizar son coherentes. Por ejemplo, no se pueden sumar una matriz de 3x3 con una de 2x2
+  - El programa debe comprobar en todo momento que los datos introducidos por el usuario y las apuestas a realizar son coherentes, por ejemplo, no se puede apostar por el número 65.
   
 ## Rúbrica de Evaluación (sin ampliación)
 | Tarea | Valoración |
 | -- | -- |
-|El programa pregunta correctamente a los cuatro jugadores que desean hacer (apostar o retirarse)| 2 puntos  |
+|El programa pregunta correctamente a los cuatro jugadores qué desean hacer (apostar o retirarse)| 2 puntos  |
 |El programa gestiona bien la suma de dinero (si se gana) o la resta (si se pierde)  | 2 puntos |
 |El programa gestiona bien cuando un jugador decide abandonar la partida | 2 puntos |
 |El programa gestiona bien cuando un jugador se queda sin dinero y deja la partida  | 2 puntos |
