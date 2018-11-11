@@ -1,6 +1,6 @@
 # Trabajo II - Programación I
 
-*Equipos de 2 personas* - *Máximo 4 grupos por orden de solicitud*
+*Equipos de 2 personas* - *Máximo 6 grupos por orden de solicitud*
 
 ## Clase Matrices
 
