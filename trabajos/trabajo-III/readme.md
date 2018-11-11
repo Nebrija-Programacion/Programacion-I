@@ -33,7 +33,6 @@ Se debe almacenar la siguiente información del alumno:
  
  Además el programa debe generar un archivo 'notas.txt' con la siguiente estructura:
  
-  '
     nombre_alumno_1 ; apellidos_alumno_1 ; DNI ; correo ; nota_parcial ; nota_practicas ; ... ; nota_final
     nombre_alumno_2 ; apellidos_alumno_2 ; DNI ; correo ; nota_parcial ; nota_practicas ; ... ; nota_final
     nombre_alumno_3 ; apellidos_alumno_3 ; DNI ; correo ; nota_parcial ; nota_practicas ; ... ; nota_final
