@@ -5,9 +5,9 @@
 ## Clase Matrices
 
 ## Enunciado
-Se deberá realizar una clase que pueda albergar Matrices de cualquier dimensión. Posteriormente se realizará un programa que pregunte que trabaje con dicha clase.
+Se deberá realizar una clase que pueda albergar Matrices de cualquier dimensión (incluso matrices con una sola fila o una sola columna). Posteriormente se realizará un programa que trabaje con dicha clase.
 
-La clase debe contener las siguientes funciones (y todas aquellas que el estudiante considere necesario para completar el programa):
+La clase debe contener las siguientes funciones (y todas aquellas que el estudiante considere necesarias para completar el programa):
 
   - Función para obtener el determinante de la matriz (si existe, si no existe debe dar un error).
   - Función para obtener la inversa de la matriz (si existe, si no existe debe dar un error).
