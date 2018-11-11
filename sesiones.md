@@ -72,3 +72,8 @@
     - Repaso [std:vector](https://codebin.cc/2018/10/28/leccion-13-stdvector/)
     - [Actividad guiada de clase](https://github.com/Nebrija-Programacion-I-II/Programacion-I/blob/master/actividades/sesion8/actividad_clase.md)
     - [Actividad para casa (20 puntos)](https://github.com/Nebrija-Programacion-I-II/Programacion-I/blob/master/actividades/sesion8/actividad_clase.md)
+ 
+ - **Sesión 9**
+    - 12 de Noviembre 2018
+    - Corrección [actividad sesión 8](https://github.com/Nebrija-Programacion-I-II/Programacion-I/blob/master/actividades/sesion8/actividad_clase.md)
+    - [Punteros (I)](https://codebin.cc/2018/11/11/leccion-14-punteros/)
