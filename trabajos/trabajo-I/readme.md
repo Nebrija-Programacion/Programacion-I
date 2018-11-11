@@ -1,7 +1,7 @@
 
 # Trabajo I - Programación I
 
-*Equipos de 4 personas* - *Máximo 3 grupos por orden de solicitud*
+*Equipos de 4 personas* - *Máximo 4 grupos por orden de solicitud*
 
 ## Aplicación de análisis de datos y Business Intelligence
 
