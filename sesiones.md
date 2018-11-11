@@ -50,10 +50,25 @@
     
 - **Sesión 6**
     - 22 de Octubre 2018
+    - [Los arrays](https://codebin.cc/2018/10/07/leccion-11-arrays/)
+    - [std::array](https://codebin.cc/2018/10/07/leccion-12-stdarray/)
     - [Corrección 1er Examen Parcial](https://github.com/Nebrija-Programacion-I-II/Programacion-I/tree/master/examenes/Parcial1)
     - [Corrección Actividades Sesión 5](https://github.com/Nebrija-Programacion-I-II/Programacion-I/blob/master/actividades/sesion5/)
 
 - **Práctica II**
     - 26 de Octubre 2018
-    - [Guión de la Práctica]
-      
+    - [Guión de la Práctica](https://github.com/Nebrija-Programacion-I-II/Programacion-I/blob/master/practicas/practica-II/enunciado.md)
+    - [Solución](https://github.com/Nebrija-Programacion-I-II/Programacion-I/tree/master/practicas/practica-II/solucion)
+    
+- **Sesión 7**
+    - 29 de Octubre 2018
+    - [std::vector](https://codebin.cc/2018/10/28/leccion-13-stdvector/)
+    - Actividades de clase.
+    - [Corrección Práctica II](https://github.com/Nebrija-Programacion-I-II/Programacion-I/tree/master/practicas/practica-II/solucion)
+
+- **Sesión 8**
+    - 5 de Noviembre 2018
+    - Repaso [std::array](https://codebin.cc/2018/10/07/leccion-12-stdarray/)
+    - Repaso [std:vector](https://codebin.cc/2018/10/28/leccion-13-stdvector/)
+    - [Actividad guiada de clase](https://github.com/Nebrija-Programacion-I-II/Programacion-I/blob/master/actividades/sesion8/actividad_clase.md)
+    - [Actividad para casa (20 puntos)](https://github.com/Nebrija-Programacion-I-II/Programacion-I/blob/master/actividades/sesion8/actividad_clase.md)

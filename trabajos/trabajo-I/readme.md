@@ -1,10 +1,7 @@
 
-**¡¡PROVISIONAL!!**
-
-
 # Trabajo I - Programación I
 
-*Equipos de 3 personas* - *Máximo 3 grupos por orden de solicitud*
+*Equipos de 4 personas* - *Máximo 4 grupos por orden de solicitud*
 
 ## Aplicación de análisis de datos y Business Intelligence
 
@@ -91,6 +88,11 @@ La función main del programa debe ser:
 |El programa guarda los datos en un archivo de texto correctamente  | 3 puntos |
 |El programa detecta cuando el archivo de datos no existe  | 1 puntos |
 |El programa detecta cuando hay algún error escribiendo los resultados en el archivo  | 1 puntos |
+
+Cada apartado se puntuará según el siguiente criterio
+  - Funciona correctamente, pero la solucion aportada no es buena - 50%
+  - Funciona correctamente y la solución aportada es correcta pero se podría mejorar según lo explicado en clase - 75%
+  - Funciona correctamente y la solución aportada es correcta según lo explicado en clase - 100%
 
 ### Recursos útiles
   * [Cómo leer y escribir un archivo de texto](http://www.aprendeaprogramar.com/mod/resource/view.php?id=344)
