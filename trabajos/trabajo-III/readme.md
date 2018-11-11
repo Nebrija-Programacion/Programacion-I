@@ -40,7 +40,7 @@ Se debe almacenar la siguiente información del alumno:
     nombre_alumno_n ; apellidos_alumno_n ; DNI ; correo ; nota_parcial ; nota_practicas ; ... ; nota_final
 
 ## Ampliación
-Como ampliación se propone que el programa pueda leer el archivo .txt guardado en lugar de pedir los datos al usuario cada vez.
+Como ampliación se propone que el programa pueda leer el archivo notas.txt guardado en lugar de pedir los datos al usuario cada vez.
 
 ## Notas
   - El programa debe comprobar en todo momento que los datos introducidos por el usuario y las operaciones a realizar son coherentes. Por ejemplo, no se pueden sumar una matriz de 3x3 con una de 2x2
