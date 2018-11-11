@@ -66,6 +66,10 @@ Como ampliación se propone que el programa pueda leer el archivo notas.txt guar
 |El programa guarda los datos en un archivo correctamente  | 2 puntos |
 |El programa lee los datos en un archivo correctamente  | 2 puntos |
 
+Cada apartado se puntuará según el siguiente criterio
+  - Funciona correctamente, pero la solucion aportada no es buena - 50%
+  - Funciona correctamente y la solución aportada es correcta pero se podría mejorar según lo explicado en clase - 75%
+  - Funciona correctamente y la solución aportada es correcta según lo explicado en clase - 100%
 
 ## Recursos útiles
   * [Cómo leer y escribir un archivo de texto](http://www.aprendeaprogramar.com/mod/resource/view.php?id=344)
