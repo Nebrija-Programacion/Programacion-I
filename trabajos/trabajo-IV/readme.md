@@ -35,3 +35,8 @@ En cada turno sucederá lo siguiente:
 |El programa gestiona bien cuando un jugador decide abandonar la partida | 2 puntos |
 |El programa gestiona bien cuando un jugador se queda sin dinero y deja la partida  | 2 puntos |
 |El programa muestra bien lo que ha ganado cada uno (incluída la banca) al finalizar el juego | 2 puntos |
+
+Cada apartado se puntuará según el siguiente criterio
+  - Funciona correctamente, pero la solucion aportada no es buena - 50%
+  - Funciona correctamente y la solución aportada es correcta pero se podría mejorar según lo explicado en clase - 75%
+  - Funciona correctamente y la solución aportada es correcta según lo explicado en clase - 100%
