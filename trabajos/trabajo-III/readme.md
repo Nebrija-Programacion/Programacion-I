@@ -1,6 +1,6 @@
 # Trabajo III - Programación I
 
-*Equipos de 3 personas (o 4 personas en caso de hacer la ampliación)* - *Máximo 3 grupos por orden de solicitud*
+*Equipos de 3 personas (o 4 personas en caso de hacer la ampliación)* - *Máximo 4 grupos por orden de solicitud*
 
 ## Gestión de datos de alumnos
 
