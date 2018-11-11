@@ -65,3 +65,9 @@ Como ampliación se propone que el programa pueda leer el archivo notas.txt guar
 |El programa muestra por pantalla el número de aprobados, suspensos y notas máxima y mínima correctamente  | 2 puntos |
 |El programa guarda los datos en un archivo correctamente  | 2 puntos |
 |El programa lee los datos en un archivo correctamente  | 2 puntos |
+
+
+## Recursos útiles
+  * [Cómo leer y escribir un archivo de texto](http://www.aprendeaprogramar.com/mod/resource/view.php?id=344)
+  * [Cómo "trocear" una cadena de texto](https://en.cppreference.com/w/cpp/string/basic_string/find)
+  * [Cómo pasar de una cadena de texto a un número decimal](http://www.cplusplus.com/reference/string/stof/)
