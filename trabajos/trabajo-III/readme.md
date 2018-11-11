@@ -24,11 +24,11 @@ Se debe almacenar la siguiente información del alumno:
  Al iniciar el programa se debe ir pidiendo la información de los alumnos uno a uno, 
  hasta que el usuario indique que ya ha introducido toda la información. Una vez introducidos todos los datos el programa debe:
  
-   - Mostrar la nota media y desviación típica (de todos los alumnos) de cada una de las notas.
+   - Mostrar la nota media, mediana y desviación típica (de todos los alumnos) de cada una de las notas.
    - Mostrar el listado de alumnos con su nota final de la asignatura.
    - Mostrar el número de alumnos suspensos.
    - Mostrar el número de alumnos aprobados.
-   - Mostrar menor nota final de la asignatura.
+   - Mostrar la menor nota final de la asignatura.
    - Mostrar la mayor nota final de la asignatura.
  
  Además el programa debe generar un archivo 'notas.txt' con la siguiente estructura:
