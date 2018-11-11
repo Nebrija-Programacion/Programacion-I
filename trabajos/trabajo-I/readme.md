@@ -89,6 +89,11 @@ La función main del programa debe ser:
 |El programa detecta cuando el archivo de datos no existe  | 1 puntos |
 |El programa detecta cuando hay algún error escribiendo los resultados en el archivo  | 1 puntos |
 
+Cada apartado se puntuará según el siguiente criterio
+  - Funciona correctamente, pero la solucion aportada no es buena - 50%
+  - Funciona correctamente y la solución aportada es correcta pero se podría mejorar según lo explicado en clase - 75%
+  - Funciona correctamente y la solución aportada es correcta según lo explicado en clase - 100%
+
 ### Recursos útiles
   * [Cómo leer y escribir un archivo de texto](http://www.aprendeaprogramar.com/mod/resource/view.php?id=344)
   * [Cómo "trocear" una cadena de texto](https://en.cppreference.com/w/cpp/string/basic_string/find)
