@@ -106,6 +106,18 @@ float angulo(Vector a, Vector b){
     return angle;
 }
 
+Vector productoVectorial(Vector a, Vector b){
+    Vector c(3);
+
+    if(a.getSize() != 3 || b.getSize() != 3){
+        throw string{"No se puede reolver el producto vectorial."};
+    }
+    c.setElement(0,a.getElement(1)*b.getElement(2)-b.getElement(1)*a.getElement(2));
+    c.setElement(1,a.getElement(2)*b.getElement(0)-b.getElement(2)*a.getElement(0));
+    c.setElement(2,a.getElement(0)*b.getElement(1)-b.getElement(0)*a.getElement(1));
+    return c;
+
+}
 
 
 
@@ -157,6 +169,12 @@ int main()
         float angle;
         angle = angulo(v1,v2);
         cout << "El angulo que forman los vectores(R) = " << angle << endl;
+
+
+        Vector v4(3);
+        v4 = productoVectorial(v1,v2);
+        cout << "El producto verctorial es = ";
+        v4.print();
 
 
     }catch(string e){
