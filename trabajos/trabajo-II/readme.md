@@ -41,3 +41,8 @@ Además el programa debe contener las siguientes funciones globales:
 |El programa calcula la transpuesta correctamente  | 2 puntos |
 |El programa realiza la suma correctamente (y gestiona cuando las matrices no se pueden sumar) | 1 punto |
 |El programa realiza la multiplicación correctamente (y gestiona cuando las matrices no se pueden multiplicar) | 1 punto |
+
+Cada apartado se puntuará según el siguiente criterio
+  - Funciona correctamente, pero la solucion aportada no es buena - 50%
+  - Funciona correctamente y la solución aportada es correcta pero se podría mejorar según lo explicado en clase - 75%
+  - Funciona correctamente y la solución aportada es correcta según lo explicado en clase - 100%
