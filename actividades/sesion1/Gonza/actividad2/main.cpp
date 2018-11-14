@@ -5,7 +5,7 @@ using namespace std;
 class Persona{
 public:
 //constructor
-    Persona(string _nombre, unsigned short int _edad, double int _altura, unsigned short int _peso){
+    Persona(string _nombre, unsigned short _edad, double _altura, unsigned short _peso){
     nombre = _nombre;
     edad = _edad;
     altura = _altura;
