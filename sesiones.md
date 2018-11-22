@@ -77,3 +77,7 @@
     - 12 de Noviembre 2018
     - Corrección [actividad sesión 8](https://github.com/Nebrija-Programacion-I-II/Programacion-I/blob/master/actividades/sesion8/actividad_clase.md)
     - [Punteros (I)](https://codebin.cc/2018/11/11/leccion-14-punteros/)
+    
+ - ** Sesión 10**
+    - 19 de Noviembre 2018
+    - [Proyecto de Clase](https://github.com/Nebrija-Programacion-I-II/Programacion-I/blob/master/actividades/sesion10/actividad_clase.md)

@@ -44,8 +44,12 @@ El siguiente paso es crear una función miembro que permita añadir fichas al ta
   - Tipo de ficha, columna.
 Elige una de las dos, no pienses sólo en lo que es más fácil para ti, sino también para el jugador, ¿cómo querría él que fuese?
 
+¿Es el tipo de dato que has escogido adecuado para esto? Si no, cámbialo.
+
 ### Paso 4
 ¿Has comprobado que las fichas que se añaden se pueden añadir? Es decir, hay espacio en el tablero para poner esa ficha. Si no lo has hecho, hazlo ahora.
+
+¿Es el tipo de dato que has escogido adecuado para esto? Si no, cámbialo.
 
 ### Paso 5
 Para ver qué tal va el programa hasta ahora haz un main, que te vaya preguntando dónde quieres ir añadiendo fichas (alternativamente cada jugador, una roja y otra negra), y que después de añadir cada ficha imprima el tablero.
@@ -54,7 +58,7 @@ Para ver qué tal va el programa hasta ahora haz un main, que te vaya preguntand
 Ahora que has hecho esto sólo te queda comprobar si algún jugador ha hecho 4 en línea. Vamos con las más fáciles
    - Detectar si hay línea horizontal.
    - Detectar si hay línea vertical.
-   - 
+
 ### Paso 7
 Finalmente vamos a detectar si hay líneas diagonales.
 
