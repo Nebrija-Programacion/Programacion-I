@@ -11,7 +11,9 @@ Las reglas del juego de dados son las siguientes
 
  - En una partida pueden participar entre 2 y 4 jugadores.
  - Cada jugador realiza una apuesta económica antes de empezar la partida.
- - Sólo un jugador puede ganar, y se llevará el dinero que hayan apostado el resto de jugadores.
+ - Sólo un jugador puede ganar.
+ - El jugador que gana la partida recibe el doble de lo que haya apostado.
+ - Los jugadores que pierden pierden todo lo que hayan apostado.
  
  La partida consiste en lo siguiente.
   
@@ -45,3 +47,6 @@ Se puntuará la realización del juego del siguiente modo
 
 #### 10 Puntos
   - Se realiza el programa completo, eligiendo al principio del juego el número de jugadores (entre 2 y 4) e introduciendo el nombre de cada uno. El programa irá llamando a cada jugador por turnos.
+  - Los jugadores parten con un saldo inicial de 10€ cada uno.
+  - Un jugador gana el doble de lo que haya apostado.
+  - Los jugadores que pierden pierden todo lo que hayan apostado.
