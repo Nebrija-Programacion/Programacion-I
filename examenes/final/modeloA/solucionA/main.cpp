@@ -7,10 +7,10 @@ using namespace std;
 
 int main()
 {
-    Agenda agenda;
+    Registro agenda;
 
     string nombre, pApellido, sApellido, fijo, movil;
-    Contacto aux;
+    Animal aux;
     short opcion = 1;
 
     while(opcion >= 0){

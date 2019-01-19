@@ -1,16 +1,16 @@
 #include "agenda.h"
 
 using namespace std;
-Agenda::Agenda()
+Registro::Registro()
 {
 }
 
-bool Agenda::anadirContacto(string nombre, string pApellido, string sApellido, string movil, string fijo)
+bool Registro::anadirContacto(string nombre, string pApellido, string sApellido, string movil, string fijo)
 {
     // Si el contacto no está ya en la agenda lo añadimos
-    Contacto contacto;
+    Animal contacto;
     if(!buscarContacto(nombre,pApellido,sApellido, contacto)){
-        Contacto contacto{nombre, pApellido, sApellido, movil, fijo};
+        Animal contacto{nombre, pApellido, sApellido, movil, fijo};
         contactos.push_back(contacto);
         return true;
     }
@@ -19,7 +19,7 @@ bool Agenda::anadirContacto(string nombre, string pApellido, string sApellido, s
     return false;
 }
 
-bool Agenda::eliminarContacto(string nombre, string pApellido, string sApellido)
+bool Registro::eliminarContacto(string nombre, string pApellido, string sApellido)
 {
     for(unsigned long int i{0}; i < contactos.size(); i++){
         // contacto encontrado
@@ -32,7 +32,7 @@ bool Agenda::eliminarContacto(string nombre, string pApellido, string sApellido)
     return false;
 }
 
-bool Agenda::buscarContacto(string nombre, string pApellido, string sApellido, Contacto &contacto)
+bool Registro::buscarContacto(string nombre, string pApellido, string sApellido, Animal &contacto)
 {
     for(auto const & aux: contactos){
         // si el contacto coincide lo devolvemos a traves del parametro contacto y devolvemos verdadero
@@ -46,7 +46,7 @@ bool Agenda::buscarContacto(string nombre, string pApellido, string sApellido, C
     return false;
 }
 
-bool Agenda::modificarContacto(string nombre, string pApellido, string sApellido, string movil, string fijo)
+bool Registro::modificarContacto(string nombre, string pApellido, string sApellido, string movil, string fijo)
 {
     for(auto & aux: contactos){
         // si el contacto coincide lo modificamos y devolvemos verdadero

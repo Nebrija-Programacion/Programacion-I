@@ -8,10 +8,10 @@
 using namespace std;
 
 
-class Agenda
+class Registro
 {
 public:
-    Agenda();
+    Registro();
 
     /**
      * @brief anadirContacto - Añade un contacto a la agenda si este no está presente
@@ -32,11 +32,11 @@ public:
      * @return Verdadero si el contacto ha sido eliminado. Falso si no esta en la agenda.
      */
     bool eliminarContacto(string nombre, string pApellido, string sApellido);
-    bool buscarContacto(string nombre, string pApellido, string sApellido, Contacto & contacto);
+    bool buscarContacto(string nombre, string pApellido, string sApellido, Animal & contacto);
     bool modificarContacto(string nombre, string pApellido, string sApellido, string movil, string fijo);
 
 private:
-    vector<Contacto> contactos;
+    vector<Animal> contactos;
 };
 
 #endif // AGENDA_H

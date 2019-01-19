@@ -5,13 +5,13 @@
 
 using namespace std;
 
-class Contacto{
+class Animal{
 public:
     // constructor por defecto no parametrizado
-    Contacto(){}
+    Animal(){}
 
     // constructor parametrizado;
-    Contacto(string _nombre, string _pApellido, string _sApellido, string _fijo, string _movil);
+    Animal(string _nombre, string _pApellido, string _sApellido, string _fijo, string _movil);
 
     // funciones getter
     string getNombre() const;
