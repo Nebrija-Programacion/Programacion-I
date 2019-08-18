@@ -30,26 +30,32 @@
 
 - **Variables**
 
-  - Tipos simples: int, double, float, char, boolean
+  - Tipos simples: _short, int, float, double, char, boolean_, etc.
   - Tipos complejos:
-    - string
+    - _string_
+    - _struct_
     - **Estructuras de datos**
-      - std::array
-      - std::vector
-      - std::set
-  - Valor y referencia: **Punteros**
+      - _std::array_
+      - _std::vector_
+      - _std::set_
+      - _std::map_
+  - **Punteros**: Valor y referencia.
 
+- **Entrada y salida de datos**
+  - Salida por pantalla: _cout_
+  - Entrada por teclado: _cin_
+  - Lectura y Escritura de archivos: _fstream_
 - **Control de flujo**
   - Condicionales
-    - if
-    - if-else
-    - if-elseif-else
-    - switch-case
+    - _if_
+    - _if-else_
+    - _if-else if-else_
+    - _switch-case_
   - Bucles
-    - for
-    - while
-    - do-while
-    - Recorriendo estructuras de datos iterables (std::array, std::vector, std::set).
+    - _for_
+    - _while_
+    - _do-while_
+    - Recorriendo estructuras de datos iterables (_std::array_, _std::vector_, _std::set_, _std::map_).
 - **Funciones**
 
   - Funciones sin parámetros.
@@ -72,25 +78,26 @@
 
 # 4. Ejemplos por temas
 
-- **Variables**
+- **Variables y Estructuras de datos**
   - Tipos simples
   - Tipos complejos
-  - Punteros
 - **Estructuras de datos**
-  - std::array
-  - std::vector
-  - std::set
+  - _std::array_
+  - _std::vector_
+  - _std::set_
+  - _std::map_
+- **Punteros**
 - **Control de flujo**
   - Condicionales
-    - if
-    - if-else
-    - if-elseif-else
-    - switch-case
+    - _if_
+    - _if-else_
+    - _if-else if-else_
+    - _switch-case_
   - Bucles
-    - for
-    - while
-    - do-while
-    - Recorriendo estructuras de datos iterables (std::array, std::vector, std::set).
+    - _for_
+    - _while_
+    - _do-while_
+    - Recorriendo estructuras de datos iterables.
 - **Funciones**
   - Funciones sin parámetros.
   - Funciones con parámetros.
@@ -105,7 +112,10 @@
     - [Filtrar un std::vector](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/ejemplos/funciones/composicionII)
     - [Declarar la función directamente en el parámetro de la función de primer orden](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/ejemplos/funciones/composicionIII)
     - [Devolver sin un vector tiene un elemento que cumpla una condición](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/ejemplos/funciones/composicionIV)
+  - Funciones iterativas.
+    - Calcular el factorial de un número de modo iterativo.
   - Funnciones recursivas.
+    - Calcular el factorial de un número de modo recursivo
 - **Programacón Oreintada a Objetos**
 
 # 5. Prácticas cursos pasados (enunciados y soluciones)
