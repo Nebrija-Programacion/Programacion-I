@@ -108,16 +108,16 @@
     - Retorno por referencia.
   - Uso secuencial de funciones
   - Composición de funciones
-    - [Aplicar una transformación a un std::array](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/ejemplos/funciones/composicionI)
-    - [Filtrar un std::vector](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/ejemplos/funciones/composicionII)
-    - [Declarar la función directamente en el parámetro de la función de primer orden](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/ejemplos/funciones/composicionIII)
-    - [Devolver sin un vector tiene un elemento que cumpla una condición](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/ejemplos/funciones/composicionIV)
+    - [Aplicar una transformación a un std::array](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/ejemplos/funciones/composicion/transform)
+    - [Filtrar un std::vector](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/ejemplos/funciones/composicion/filter)
+    - [Declarar la función directamente en el parámetro de la función de primer orden](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/ejemplos/funciones/composicion/inline)
+    - [Devolver sin un vector tiene un elemento que cumpla una condición](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/ejemplos/funciones/composicion/contains)
   - Funciones iterativas.
     - [Calcular el factorial de un número de modo iterativo](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/ejemplos/funciones/iterativo/factorial).
     - [Almacenar en un vector los n primeros números de la serie de Fibonacci de modo iterativo](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/ejemplos/funciones/iterativo/fibonacci)
   - Funnciones recursivas.
     - [Calcular el factorial de un número de modo recursivo](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/ejemplos/funciones/recursivo/factorial)
-    - [Almacenar en un vector los n primeros números de la serie de Fibonacci de modo recursivo]
+    - [Almacenar en un vector los n primeros números de la serie de Fibonacci de modo recursivo](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/ejemplos/recursivo/iterativo/fibonacci)
 - **Programacón Oreintada a Objetos**
 
 # 5. Prácticas cursos pasados (enunciados y soluciones)
