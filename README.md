@@ -1,4 +1,4 @@
-Asignatura de Programacion I - Grado Ingeniería Informática - Universidad Nebrija
+# Asignatura de Programacion I - Grado Ingeniería Informática - Universidad Nebrija
 
 # 1. Sesiones
 
@@ -106,12 +106,11 @@ Asignatura de Programacion I - Grado Ingeniería Informática - Universidad Nebr
 
 # 5. Prácticas cursos pasados (enunciados y soluciones)
 
-## 5.1. [Curso 2018/19](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/practicas/1819)
+- [Curso 2018/19](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/practicas/1819)
 
 # 6. Exámenes cursos pasados (enunciados y soluciones)
 
-## 6.1. [Curso 2018/19](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/examenes/1819)
-
-- [Parcial](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/examenes/1819/Parcial1)
-- [Final Ordinaria](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/examenes/1819/final)
-- [Final Extraordinaria]
+- [Curso 2018/19](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/examenes/1819)
+  - [Parcial](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/examenes/1819/Parcial1)
+  - [Final Ordinaria](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/examenes/1819/final)
+  - [Final Extraordinaria]
