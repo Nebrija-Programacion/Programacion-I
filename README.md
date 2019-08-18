@@ -1,4 +1,4 @@
-# Asignatura de Programacion I - Grado Ingeniería Informática - Universidad Nebrija
+Asignatura de Programacion I - Grado Ingeniería Informática - Universidad Nebrija
 
 # 1. Sesiones
 
@@ -104,17 +104,13 @@
   - Funnciones recursivas.
 - **Programacón Oreintada a Objetos**
 
-# 5. Prácticas
+# 5. Prácticas cursos pasados (enunciados y soluciones)
 
-## 5.1. Curso 2019/20
+## 5.1. [Curso 2018/19](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/practicas/1819)
 
-## 5.2. [Curso 2018/19](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/practicas/1819)
+# 6. Exámenes cursos pasados (enunciados y soluciones)
 
-# 6. Exámenes
-
-## 6.1. Curso 2019/20
-
-### 6.1.1. [Curso 2018/19](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/examenes/1819)
+## 6.1. [Curso 2018/19](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/examenes/1819)
 
 - [Parcial](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/examenes/1819/Parcial1)
 - [Final Ordinaria](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/examenes/1819/final)
