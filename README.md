@@ -101,9 +101,10 @@
     - Retorno por referencia.
   - Uso secuencial de funciones
   - Composición de funciones
-    - [Aplicar una transformación a un std::array](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/ejemplos/funciones/composicion)
-    - [Filtrar un std::vector](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/ejemplos/funciones/composicion)
-    - [Aplicar una trasnformación directamente el parámetro de la función de primer orden]()
+    - [Aplicar una transformación a un std::array](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/ejemplos/funciones/composicionI)
+    - [Filtrar un std::vector](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/ejemplos/funciones/composicionII)
+    - [Declarar la función directamente en el parámetro de la función de primer orden](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/ejemplos/funciones/composicionIII)
+    - [Devolver el primer elemento de un vector que cumpla una condición](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/ejemplos/funciones/composicionIV)
   - Funnciones recursivas.
 - **Programacón Oreintada a Objetos**
 
