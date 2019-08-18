@@ -115,7 +115,7 @@
   - Funciones iterativas.
     - Calcular el factorial de un número de modo iterativo.
   - Funnciones recursivas.
-    - Calcular el factorial de un número de modo recursivo
+    - [Calcular el factorial de un número de modo recursivo](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/ejemplos/funciones/recursivo/factorial)
 - **Programacón Oreintada a Objetos**
 
 # 5. Prácticas cursos pasados (enunciados y soluciones)
