@@ -1,10 +1,32 @@
-Asignatura de Programacion I - Grado Ingeniería Informática - Universidad Nebrija
-
-<!-- TOC -->autoauto- [1. Sesiones](#1-sesiones)auto- [2. Temario](#2-temario)auto- [3. Ejemplos por temas](#3-ejemplos-por-temas)auto- [4. Prácticas](#4-prácticas)auto  - [4.1. Curso 2019/20](#41-curso-201920)auto  - [4.2. [Curso 2018/19](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/practicas/1819)](#42-curso-201819httpsgithubcomnebrija-programacionprogramacion-itreemasterpracticas1819)auto- [5. Exámenes](#5-exámenes)auto  - [5.1. Curso 2019/20](#51-curso-201920)auto    - [5.1.1. [Curso 2018/19](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/examenes/1819)](#511-curso-201819httpsgithubcomnebrija-programacionprogramacion-itreemasterexamenes1819)autoauto<!-- /TOC -->
+# Asignatura de Programacion I - Grado Ingeniería Informática - Universidad Nebrija
 
 # 1. Sesiones
 
-# 2. Temario
+- Sesión 1. 12 Septiembre.
+- Sesión 2. 19 Septiembre.
+- Sesión 3. 16 Septiembre.
+- Sesión 4. 3 Octubre.
+- Sesión 5. 10 Octubre.
+- Sesión 6. 17 Octubre.
+- Sesión 7. 24 Octubre.
+- Sesión 8. 31 Octubre.
+- Sesión 9. 7 Noviembre.
+- Sesión 10. 14 Noviembre.
+- Sesión 11. 21 Noviembre.
+- Sesión 12. 28 Noviembre.
+- Sesión 13. 6 Diciembre.
+- Sesión 14. 13 Diciembre.
+- Sesión 15. 20 Diciembre.
+
+# 2. Prácticas
+
+- Práctica I
+- Práctica II
+- Práctica III
+- Práctica IV
+- Práctica V
+
+# 3. Temario
 
 - **Variables**
 
@@ -48,7 +70,7 @@ Asignatura de Programacion I - Grado Ingeniería Informática - Universidad Nebr
   - Constructor.
   - Miembros públicos, protegidos y privados.
 
-# 3. Ejemplos por temas
+# 4. Ejemplos por temas
 
 - **Variables**
   - Tipos simples
@@ -82,17 +104,17 @@ Asignatura de Programacion I - Grado Ingeniería Informática - Universidad Nebr
   - Funnciones recursivas.
 - **Programacón Oreintada a Objetos**
 
-# 4. Prácticas
-
-## 4.1. Curso 2019/20
-
-## 4.2. [Curso 2018/19](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/practicas/1819)
-
-# 5. Exámenes
+# 5. Prácticas
 
 ## 5.1. Curso 2019/20
 
-### 5.1.1. [Curso 2018/19](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/examenes/1819)
+## 5.2. [Curso 2018/19](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/practicas/1819)
+
+# 6. Exámenes
+
+## 6.1. Curso 2019/20
+
+### 6.1.1. [Curso 2018/19](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/examenes/1819)
 
 - [Parcial](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/examenes/1819/Parcial1)
 - [Final Ordinaria](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/examenes/1819/final)
