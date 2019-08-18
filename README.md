@@ -113,9 +113,11 @@
     - [Declarar la función directamente en el parámetro de la función de primer orden](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/ejemplos/funciones/composicionIII)
     - [Devolver sin un vector tiene un elemento que cumpla una condición](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/ejemplos/funciones/composicionIV)
   - Funciones iterativas.
-    - Calcular el factorial de un número de modo iterativo.
+    - [Calcular el factorial de un número de modo iterativo](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/ejemplos/funciones/iterativo/factorial).
+    - [Almacenar en un vector los n primeros números de la serie de Fibonacci de modo iterativo]
   - Funnciones recursivas.
     - [Calcular el factorial de un número de modo recursivo](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/ejemplos/funciones/recursivo/factorial)
+    - [Almacenar en un vector los n primeros números de la serie de Fibonacci de modo recursivo]
 - **Programacón Oreintada a Objetos**
 
 # 5. Prácticas cursos pasados (enunciados y soluciones)
