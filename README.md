@@ -100,7 +100,10 @@
     - Retorno por valor - copia.
     - Retorno por referencia.
   - Uso secuencial de funciones
-  - [Composición de funciones](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/ejemplos/funciones/composicion)
+  - Composición de funciones
+    - [Aplicar una transformación a un std::array](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/ejemplos/funciones/composicion)
+    - [Filtrar un std::vector](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/ejemplos/funciones/composicion)
+    - [Aplicar una trasnformación directamente el parámetro de la función de primer orden]()
   - Funnciones recursivas.
 - **Programacón Oreintada a Objetos**
 

@@ -12,24 +12,8 @@
  */
 
 /******************************************************************************************
-  In this program we are showing how functions can be composed.
-  We will create two frist order functions
-    - filter: Will filter one vector returning a new vector with the filtered elements
-    - transform: Will transform a vector.
-
-  Both functions will be composed to the functions making the actual job (also called functors):
-    - makeDouble: multiplies an int per 2
-    - makeTrible: multiplies an int per 3
-    - isEven: returns true when an int is even
-    - isGreaterThanTen: returns true when an int is strictly greater than ten.
-
-  Composing these functions with the first order function we get the desired result.
-
-  For example:
-    - filter(vector, isEven) will create a new vector with the even elements.
-    - transform(vector, makeDouble) will transform vector elements, making them double.
-
-  Finally we will define the functor inside the parameter list,
+  In this program we are showing how functions can be composed inline
+  (defining the functor in the parameter).
   getting the greatest flexibility (and readability)
 
 *******************************************************************************************/
@@ -37,24 +21,6 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
-
-
-int makeDobule(int x){
-    return 2*x;
-}
-
-int makeTriple(int x){
-    return 3*x;
-}
-
-bool isEven(int x){
-    return (x % 2 == 0);
-}
-
-bool isGreaterThanTen(int x){
-    return (x > 10);
-}
 
 
 /**
@@ -97,32 +63,19 @@ void print(vector<int> const & v){
 
 int main()
 {
-    vector<int> myVector{{1,2,3,4,5}};
+    vector<int> myVector{{1,21,13,42,15}};
 
-    cout << "Original vector: " << endl;
+    cout << "Original Vector"<< endl;
     print(myVector);
 
-    cout << "Filtered vector (isEven): " << endl;
-    vector<int> onlyEvenElements = filter(myVector, &isEven);
-    print(onlyEvenElements);
-
-    cout << "Transform (makeDouble): " << endl;
-    myVector = transform(myVector, &makeDobule);
-    print(myVector);
-
-    cout << "Transform again (makeTriple): " << endl;
-    myVector = transform(myVector, &makeTriple);
-    print(myVector);
-
-    cout << "Filtered vector (greaterThanTen)" << endl;
-    vector<int> greaterVector = filter(myVector, &isGreaterThanTen);
-    print(greaterVector);
-
-    cout << "Inline composition (greterThan20)" << endl;
-
-    // We can also write directly the functor filter we want to use!!!
-    vector<int> greaterThan20 = filter(greaterVector, [](int a){ return a>20; } );
+    cout << "Elements greater than 20" << endl;
+    vector<int> greaterThan20 = filter(myVector, [](int a){ return a>20; } );
     print(greaterThan20);
+
+    cout << "Original Vector (made triple)" << endl;
+    myVector = transform(myVector, [](int a){ return a*3; });
+    print(myVector);
+
 
     cout << "End!" << endl;
 
