@@ -128,5 +128,5 @@
 
 - [Curso 2018/19](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/examenes/1819)
   - [Parcial](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/examenes/1819/Parcial1)
-  - [Final Ordinaria](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/examenes/1819/final)
-  - [Final Extraordinaria]
+  - [Final Ordinaria](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/examenes/1819/ordinaria)
+  - [Final Extraordinaria](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/examenes/1819/extraordinaria)
