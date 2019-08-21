@@ -108,6 +108,7 @@
   - Valores de retorno
     - Retorno por valor - copia.
     - Retorno por referencia.
+      - [Realizar una función que devuelve el módulo y ángulo con el eje X de un vector de dos coordenadas que recibe por parámetro]
   - Uso secuencial de funciones
   - Composición de funciones
     - [Aplicar una transformación a un std::array](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/ejemplos/funciones/composicion/transform)
