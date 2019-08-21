@@ -100,7 +100,7 @@
     - Recorriendo estructuras de datos iterables.
 - **Funciones**
   - Funciones sin parámetros.
-    - [Función que imprime por pantalla el fecha]
+    - [Función que imprime por pantalla el fecha y hora](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/ejemplos/funciones/parametros/sinparametros/)
   - Funciones con parámetros.
     - Parámetros simples (paso por valor - copia)
     - Parámetros complejos (paso por referencia)
