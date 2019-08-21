@@ -100,6 +100,7 @@
     - Recorriendo estructuras de datos iterables.
 - **Funciones**
   - Funciones sin parámetros.
+    - [Función que imprime por pantalla el fecha]
   - Funciones con parámetros.
     - Parámetros simples (paso por valor - copia)
     - Parámetros complejos (paso por referencia)
