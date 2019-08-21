@@ -19,26 +19,35 @@
 #include <vector>
 using namespace std;
 
+
+
+
+/**
+ * @brief fibonacci computes de n-term of the fibonacci sequence recursively
+ * @param n - term number
+ * @return the finobacci number
+ */
+unsigned int fibonacci(unsigned int n){
+    if(n <= 2) return 1;
+    return fibonacci(n-1) + fibonacci(n-2);
+}
+
+
 /**
  * @brief fibonacci computes the fibonacci serie with n numbers
  * @param n number of numbers
  * @param result the vector where the serie will be saved (this vector is modified)
  * @return a reference to the result vector (for convenience)
  */
-vector<int> & fibonacci(unsigned int n, vector<int> &result){
-    if(n <= 0) return result;
-
-    if(result.size() < 2){
-        result.clear();
-        result = {1,1};
-        return fibonacci(n-2, result);
+vector<unsigned int> & buildFibonacci(unsigned int n, vector<unsigned int> &result){
+    for(unsigned int i{1}; i<=n; i++){
+        result.push_back(fibonacci(i));
     }
 
-    result.push_back(result.at(result.size()-1) + result.at(result.size()-2));
-    return fibonacci(n-1, result);
+    return result;
 }
 
-void print(vector<int> const & v){
+void print(vector<unsigned int> const & v){
 
     for(auto elem: v){
         cout << elem << " - ";
@@ -49,12 +58,12 @@ void print(vector<int> const & v){
 
 int main()
 {
-    vector<int> fibonacciVector;
+    vector<unsigned int> fibonacciVector;
     unsigned int number;
     cout << "How many numbers do you want to compute? ";
     cin >> number;
 
-    fibonacciVector = fibonacci(number, fibonacciVector);
+    fibonacciVector = buildFibonacci(number, fibonacciVector);
     print(fibonacciVector);
 
 

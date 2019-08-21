@@ -119,7 +119,7 @@
     - [Almacenar en un vector los n primeros números de la serie de Fibonacci de modo iterativo](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/ejemplos/funciones/iterativo/fibonacci)
   - Funnciones recursivas.
     - [Calcular el factorial de un número de modo recursivo](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/ejemplos/funciones/recursivo/factorial)
-    - [Almacenar en un vector los n primeros números de la serie de Fibonacci de modo recursivo](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/ejemplos/recursivo/iterativo/fibonacci)
+    - [Almacenar en un vector los n primeros números de la serie de Fibonacci de modo recursivo](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/ejemplos/funciones/recursivo/fibonacci)
 - **Programacón Oreintada a Objetos**
 
 # 5. Prácticas cursos pasados (enunciados y soluciones)
