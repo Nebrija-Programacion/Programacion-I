@@ -100,7 +100,8 @@
     - Recorriendo estructuras de datos iterables.
 - **Funciones**
   - Funciones sin parámetros.
-    - [Función que imprime por pantalla el fecha y hora](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/ejemplos/funciones/parametros/sinparametros/)
+    - [Función que imprime por pantalla la fecha y la hora](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/ejemplos/funciones/parametros/sinparametros/)
+    - [Functiones que permiten calcular el tiempo transcurrido entre dos eventos](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/ejemplos/funciones/parametros/sinparametrosconretorno/)
   - Funciones con parámetros.
     - Parámetros simples (paso por valor - copia)
     - Parámetros complejos (paso por referencia)
