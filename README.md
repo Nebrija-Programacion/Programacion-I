@@ -104,7 +104,7 @@
     - [Función que permiten calcular el tiempo transcurrido entre dos eventos](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/ejemplos/funciones/parametros/sinparametrosconretorno/)
   - Funciones con parámetros.
     - Parámetros simples (paso por valor - copia)
-      - [Función que devuelve si un número es primo]()
+      - [Función que devuelve si un número es primo](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/ejemplos/funciones/parametros/porcopia/esprimo)
     - Parámetros complejos (paso por referencia)
   - Valores de retorno
     - Retorno por valor - copia.
