@@ -34,7 +34,7 @@
   - Tipos complejos:
     - _string_
     - _struct_
-    - **Estructuras de datos**
+    - **Estructuras de datos de la biblioteca std**
       - _std::array_
       - _std::vector_
       - _std::set_

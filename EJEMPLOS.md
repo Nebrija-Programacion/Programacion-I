@@ -5,7 +5,7 @@
 - Tipos simples
 - Tipos complejos
 
-### Estructuras de datos en la librería std
+### Estructuras de datos en la biblioteca std
 
 - _std::array_
 - _std::vector_
