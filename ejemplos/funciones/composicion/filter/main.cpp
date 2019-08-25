@@ -29,6 +29,7 @@
 
 #include <iostream>
 #include <vector>
+#include <functional>
 using namespace std;
 
 
@@ -48,7 +49,7 @@ bool isGreaterThanTen(int x){
  * @param fp: The function that filters de elements (returning boolean)
  * @return Filtered vector.
  */
-vector<int> filter(vector<int> const & v, bool (*fp)(int)){
+vector<int> filter(vector<int> const & v, std::function<bool(int)>fp){
     vector<int> retVector;
     for(auto elem: v){
         if(fp(elem)) retVector.push_back(elem);
