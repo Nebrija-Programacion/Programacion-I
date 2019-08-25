@@ -78,13 +78,17 @@
 
 # 4. Ejemplos por temas
 
-[Lista de ejemplos organizados por temas](./ejemplos.md)
+[Lista de ejemplos organizados por temas](./EJEMPLOS.md)
 
-# 5. Prácticas cursos pasados (enunciados y soluciones)
+# 5. Colección de ejercicios
+
+[Colección de ejercicios (sin corrección)](./EJERCICIOS.md)
+
+# 6. Prácticas cursos pasados (enunciados y soluciones)
 
 - [Curso 2018/19](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/practicas/1819)
 
-# 6. Exámenes cursos pasados (enunciados y soluciones)
+# 7. Exámenes cursos pasados (enunciados y soluciones)
 
 - [Curso 2018/19](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/examenes/1819)
   - [Parcial](https://github.com/Nebrija-Programacion/Programacion-I/tree/master/examenes/1819/Parcial1)
