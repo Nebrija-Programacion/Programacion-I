@@ -37,6 +37,7 @@
   * Valores de retorno
     * Retorno por valor * copia.
     * Retorno por referencia.
+  * Funciones Lambda.
   * Uso secuencial de funciones.
   * Composición de funciones.
   * Funnciones recursivas.

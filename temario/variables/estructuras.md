@@ -56,7 +56,7 @@ Una estructura se puede inicializar elemento a elemento, tal y como se ha visto 
     float peso;
   };
 
-  Person juan = {
+  Person juan{
     38,
     182.5,
     79.2
@@ -87,25 +87,25 @@ Las estrucuturas se pueden anidar para obtener estructuras más complejas. Por e
     unsigned int lost_games;
   };
 
-  Person luis = {
+  Person luis{
     38,
     182.5,
     79.2
   };
 
-  Person maria = {
+  Person maria{
     29,
     178.3,
     58.3,
   };
 
-  Person juan = {
+  Person juan{
     34,
     197.2,
     87.5
   };
 
-  Basket3Team warriors = {
+  Basket3Team warriors{
     luis,
     maria,
     juan,

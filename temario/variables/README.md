@@ -117,6 +117,27 @@ Dado a que **no podemos asociar valores a las variables constantes después de c
  const int bornDate; // error de compilacion
 ```
 
+*Hay 2 modos de incializar variables en C++*, el modo clásico es como se ha visto anteriormente
+
+```cpp
+ int a = 3;
+```
+En C++ moderno las variables se pueden inicializar de este otro modo:
+
+```cpp
+ int a{3};
+```
+
+<a href = "http://www.stroustrup.com/" target="_blank">Bjarne Stroustrup</a>, creador de C++, recomienda que se inicialicen utilizando la notación moderna `int a{3};`. La justificación requiere un conocimiento más profundo de C++.
+
+La asignación siempre se realizará usando el operador =
+
+```cpp
+ int a{3};
+ a = 2;
+```
+
+
 ## Errores comunes
 
 ### Variables no inicializadas
