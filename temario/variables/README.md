@@ -1,4 +1,4 @@
-#Las variables
+# Las variables
 
 C++ (y casi cuaqluier lenguaje de programación) tiene como objetivo manipular datos, es decir, un programa, habitualmente, recibirá una serie de datos, los procesará, y ejecutará una serie de acciones en consecuencia (o producirá información a partir de ellos).
 
