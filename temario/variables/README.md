@@ -19,7 +19,7 @@ Veamos cómo se escribe eso en C++
 ¿Qué está pasando aquí realmente?
 
 1. En primer lugar se está guardando en la memoria física de nuestro ordenador el dato 37 (100101)
-2. Luego estoy creando una _etiqueta_ llamada _age_, y estoy indicándole a mi programa que esa etiqueta va estar relacionada con un número entero (la palabra _int_).
+2. Luego estoy creando una _etiqueta_ llamada _age_, y estoy indicándole a mi programa que esa etiqueta va a tener asociado un número entero (esto lo indica la palabra _int_).
 3. Asocio a la etiqueta age el espacio físico donde está almacenado el dato 37.
 
 Vamos a modificar el programa
