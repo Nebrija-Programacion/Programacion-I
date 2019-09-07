@@ -20,7 +20,7 @@ Veamos cómo se escribe eso en C++
 
 1. En primer lugar se está guardando en la memoria física de nuestro ordenador el dato 37 (100101)
 2. Luego estoy creando una _etiqueta_ llamada _age_, y estoy indicándole a mi programa que esa etiqueta va a tener asociado un número entero (esto lo indica la palabra _int_).
-3. Asocio a la etiqueta age el espacio físico donde está almacenado el dato 37.
+3. Asocio a la etiqueta *age* el dato 37.
 
 Vamos a modificar el programa
 
@@ -33,9 +33,9 @@ El código `std::cout << algo << std::endl;` lo que hace es mostrar por pantalla
 
 1. Se guarda en la memoria física de nuestro ordenador el dato 37 (100101)
 2. Estoy creando una _etiqueta_ llamada _age_, y estoy indicándole a mi programa que esa etiqueta va estar relacionada con un número entero (la palabra _int_).
-3. Asocio a la etiqueta (variable) _age_ el espacio físico donde está almacenado el dato 37.
+3. Asocio a la etiqueta (variable) _age_ el dato 37.
 4. Estoy indicando que quiero imprimir por pantalla la etiqueta (la variable) _age_.
-5. El programa mirará si existe una etiqueta (variable) llamada age, y si existe (que en este código es que sí), mira a qué espacio físico del ordenaodr está asociada.
+5. El programa mirará si existe una etiqueta (variable) llamada *age*, y si existe (que en este código es que sí), mira a qué espacio físico del ordenaodr está asociada.
 6. El programa irá a ese espacio físico, y comprueba que el dato es 100101
 7. Como la etiqueta _age_ es un _int_ (número entero), interpretará 100101 como número entero, es decir, 37..
 8. Muestra por pantalla el número 37.
@@ -53,15 +53,15 @@ Veamos paso por paso qué sucede:
 
 1. Se guarda en la memoria física de nuestro ordenador el dato 37 (100101)
 2. Estoy creando una _etiqueta_ llamada _age_, y estoy indicándole a mi programa que esa etiqueta va estar relacionada con un número entero (la palabra _int_).
-3. Asocio a la etiqueta age el espacio físico donde está almacenado el dato 37.
+3. Asocio a la etiqueta *age* el espacio físico donde está almacenado el dato 37.
 4. Estoy indicando que quiero imprimir por pantalla la etiqueta (la variable) _age_.
-5. El programa mirará si existe una etiqueta (variable) llamada age, y si existe (que en este código es que sí), mira a qué espacio físico del ordenaodr está asociada.
+5. El programa mirará si existe una etiqueta (variable) llamada *age*, y si existe (que en este código es que sí), mira a qué espacio físico del ordenaodr está asociada.
 6. El programa irá a ese espacio físico, y comprueba que el dato es 100101
 7. Como la etiqueta _age_ es un _int_ (número entero), interpretará 100101 como número entero, es decir, 37..
 8. Muestra por pantalla el número 37.
    **ATENCIÓN AHORA**
 9. Se guarda en la memoria física de nuestro ordenador (en un lugar físicamente distinto) el dato 22 (10110)
-10. El programa mirará si existe una etiqueta (variable) llamada age, y si existe (que en este código es que sí) asocio a la etiqueta (variable) _age_ el espacio físico donde está almacenado el dato 22
+10. El programa mirará si existe una etiqueta (variable) llamada *age*, y si existe (que en este código es que sí) asocio a la etiqueta (variable) _age_ el espacio físico donde está almacenado el dato 22
 11. etc.
 
 Este es el proceso fundamental para el manipulado de datos:
