@@ -37,6 +37,8 @@ Además cuenta con sus variaciones sin signo (siempre positivos)
 ### Números decimales
 
 C++ cuenta con dos tipos decimales
+
+
 | Tipo   | Descripción                                 | Valor Mínimo | Valor Máximo |
 | ------ | ------------------------------------------- | ------------ | ------------ |
 | float  | Número decimal (32 bits)                    | 1.2E-38      | 3.4E+38      |
