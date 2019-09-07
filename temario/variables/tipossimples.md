@@ -34,4 +34,3 @@ A efectos prácticos en la mayoría de los casos se usarán los tipos _int_ para
 
 - _bool_ (8 bits). Puede almacenar dos valores: _true_ o _false_
 - _char_ (8 bits). Para almacenar caracteres.
-- _string_. Aunque no es un tipo simple se puede tratar como tal. Almacena cadenas de texto.

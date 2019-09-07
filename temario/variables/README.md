@@ -4,11 +4,11 @@ C++ (y casi cuaqluier lenguaje de programación) tiene como objetivo manipular d
 
 Estos datos pueden provenir de distintos orígenes: introducidos por el usuario, una base de datos, mediciones en tiempo real a través de sensores, etc. Por lo tanto, es fundamental para cualquier lenguaje de programación, poder almacenar estos datos para luego trabajar con ellos.
 
-Se podría decir que un lenguaje de programación es tan bueno como lo sea su capacidad para almacenar y manipular datos. Lenguajes como Python o JavaScript están teniendo un gran éxito dado que permiten almacenar y manipular datos de un modo muy flexible y potente. Por lo tanto, el pilar fundamental para aprender cualquier lenguaje de programación, es aprender los mecanismos que ofrece para almacenar y manipular datos.
+Se podría decir que un lenguaje de programación es tan bueno como lo sea su capacidad para almacenar y manipular datos. Lenguajes como Python o JavaScript están teniendo un gran éxito dado que permiten almacenar y manipular datos de un modo muy flexible y potente. Por lo tanto, **el pilar fundamental para aprender cualquier lenguaje de programación, es aprender los mecanismos que ofrece para almacenar y manipular datos**.
 
-En C++, los datos se guardan en una **variable**. Los datos estarán _físicamente_ codificados en un espacio _físico_ de la memoria del ordenador, en formato binario (0 y 1). Las **variables**, es el mecanismo a través del cual el programador accede a esos datos.
+Los datos se guardan en la memoria física del ordenador en formato binario (0 y 1), es decir, los datos estarán _físicamente_ codificados en un espacio _físico_ de la memoria del ordenador. Las **variables**, son el mecanismo a través del cual el programador accede a esos datos.
 
-Por ejemplo, si mi edad fuera 37, 37 es un dato, que se puede codificar como número entero del siguiente modo 100101 . Estos 1 y 0 son bits que estarán escritos en la memoria del ordenador. Nuestro programa necesita ahora _guardar_ esa ubicación de la memoria de nuestro ordenador y asignarle una etiqueta (un nombre) para poder acceder a este dato.
+Por ejemplo, si mi edad fuera 37, 37 es un dato, que se puede codificar como número entero del siguiente modo 100101 . Estos 1 y 0 son bits que estarán escritos en la memoria del ordenador. Nuestro programa necesita ahora _guardar_ esa ubicación de la memoria de nuestro ordenador y asignarle una etiqueta (un nombre) para poder acceder a este dato. Las **variables** son esas etiquetas, que nos permiten acceder a los datos.
 
 Veamos cómo se escribe eso en C++
 

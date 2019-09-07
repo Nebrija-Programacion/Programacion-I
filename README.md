@@ -5,7 +5,7 @@
 - Sesión 1. 12 Septiembre.
   - [Variables](./temario/variables/README.md)
     - [Tipos simples](./temario/variables/tipossimples.md)
-    - [Tipos complejos](./temario/variables/tiposcomplejos.md)
+    - [Estructuras](./temario/variables/estructuras.md)
 - Sesión 2. 19 Septiembre.
 - Sesión 3. 16 Septiembre.
 - Sesión 4. 3 Octubre.
@@ -34,10 +34,9 @@
 - [**Variables**](./temario/variables/README.md)
 
   - [Tipos simples: _short, int, float, double, char, boolean_, etc.](./temario/variables/tipossimples.md)
-  - [Tipos complejos](./temario/variables/tiposcomplejos.md)
-    - _string_
-    - _struct_
-  - **Estructuras de datos de la biblioteca std**
+  - [Estrucutras: _struct_](./temario/variables/estructuras.md)
+  - **Tidos de datos de la biblioteca std**
+    - _std::string__
     - _std::array_
     - _std::vector_
     - _std::set_
