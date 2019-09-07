@@ -2,7 +2,7 @@
 
 # 1. Sesiones
 
-* Sesión 1.
+* Sesión 1 - [Presentacion](./presentaciones/Sesion1.pdf)
   * [Hola Mundo](./temario/holamundo/README.md)
   * [Variables](./temario/variables/README.md)
     * [Tipos simples](./temario/variables/tipossimples.md)

@@ -75,7 +75,7 @@ Este es el proceso fundamental para el manipulado de datos:
 Por ejemplo, el siguiente programa daría un error de compilación, porque estoy intentando asociar a una variable de tipo entero (_int_) un dato decimal.
 
 ```cpp
-  int a = 3.5;
+  int a = 3.5; // Error de compilacion
 ```
 
 ## Constantes
