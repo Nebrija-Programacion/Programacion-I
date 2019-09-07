@@ -20,13 +20,13 @@
 * **Control de flujo**
   * Condicionales
     * _if_
-    * _if*else_
-    * _if*else if*else_
-    * _switch*case_
+    * _if-else_
+    * _if-else if-else_
+    * _switch-case_
   * Bucles
     * _for_
     * _while_
-    * _do*while_
+    * _do-while_
     * Recorriendo estructuras de datos iterables (_std::array_, _std::vector_, _std::set_, _std::map_).
 * **Funciones**
 
