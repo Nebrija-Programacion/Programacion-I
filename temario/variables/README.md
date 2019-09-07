@@ -143,6 +143,6 @@ C++ es un lenguaje que se compila de arriba a abajo, por lo tanto, antes de pode
 Vamos a ver los tipos de variables más importantes de C++
 
 - [Tipos simples](./tipossimples.md)
-- [Tipos complejos]
-- [Estrucutras de datos]
-- [Punteros]
+- [Estrucutras de datos](./estructuras.md)
+- [Tipos de la biblioteca std](./std.md)
+- [Punteros](./punteros.md)
