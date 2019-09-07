@@ -3,6 +3,9 @@
 # 1. Sesiones
 
 - Sesión 1. 12 Septiembre.
+  - [Variables](./temario/variables/README.md)
+    - [Tipos simples](./temario/variables/tipossimples.md)
+    - [Tipos complejos](./temario/variables/tiposcomplejos.md)
 - Sesión 2. 19 Septiembre.
 - Sesión 3. 16 Septiembre.
 - Sesión 4. 3 Octubre.
