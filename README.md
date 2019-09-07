@@ -2,11 +2,16 @@
 
 # 1. Sesiones
 
-* Sesión 1 - [Presentacion](./presentaciones/Sesion1.pdf)
+* Sesión 1
   * [Hola Mundo](./temario/holamundo/README.md)
   * [Variables](./temario/variables/README.md)
     * [Tipos simples](./temario/variables/tipossimples.md)
     * [Estructuras](./temario/variables/estructuras.md)
+  
+  -------------------------------------------------------
+  
+  * [Presentacion](./presentaciones/Sesion1.pdf)
+  * [Ejercicio 1 de la colección](./EJERCICIOS.md)
 * Sesión 2.
 * Sesión 3.
 * Sesión 4.
