@@ -31,17 +31,17 @@
 
 # 3. Temario
 
-- **Variables**
+- [**Variables**](./temario/variables/README.md)
 
-  - Tipos simples: _short, int, float, double, char, boolean_, etc.
-  - Tipos complejos:
+  - [Tipos simples: _short, int, float, double, char, boolean_, etc.](./temario/variables/tipossimples.md)
+  - [Tipos complejos](./temario/variables/tiposcomplejos.md)
     - _string_
     - _struct_
-    - **Estructuras de datos de la biblioteca std**
-      - _std::array_
-      - _std::vector_
-      - _std::set_
-      - _std::map_
+  - **Estructuras de datos de la biblioteca std**
+    - _std::array_
+    - _std::vector_
+    - _std::set_
+    - _std::map_
   - **Punteros**: Valor y referencia.
 
 - **Entrada y salida de datos**
