@@ -66,9 +66,9 @@ Veamos paso por paso qué sucede:
 
 Este es el proceso fundamental para el manipulado de datos:
 
-- Creo variables (etiquetas).
-- Asocio datos a esas etiquetas (variables).
-- Leo los valores asociados a esas etiquetas (variables).
+* Creo variables (etiquetas).
+* Asocio datos a esas etiquetas (variables).
+* Leo los valores asociados a esas etiquetas (variables).
 
 **C++ es un lenguaje tipado**, es decir, al escribir el código debo indicar qué tipo de datos va a estar asociado a cada variable (etiqueta). El compilador se encargará que comprobar que esto es consistente a lo largo de todo el programa.
 
@@ -142,7 +142,7 @@ C++ es un lenguaje que se compila de arriba a abajo, por lo tanto, antes de pode
 
 Vamos a ver los tipos de variables más importantes de C++
 
-- [Tipos simples](./tipossimples.md)
-- [Estrucutras de datos](./estructuras.md)
-- [Tipos de la biblioteca std](./std.md)
-- [Punteros](./punteros.md)
+* [Tipos simples](./tipossimples.md)
+* [Estrucutras de datos](./estructuras.md)
+* [Tipos de la biblioteca std](./std.md)
+* [Punteros](./punteros.md)
