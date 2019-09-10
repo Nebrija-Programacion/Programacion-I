@@ -14,6 +14,7 @@
   * [Presentacion](./presentaciones/Sesion1.pdf)
   * [Ejercicio 1 de la colección](./EJERCICIOS.md)
 
+## Sesión 2
 
 # 2. Prácticas
 
@@ -37,11 +38,11 @@
 
 # 6. Prácticas cursos pasados (enunciados y soluciones)
 
-* [Curso 2018/19](https://github.com/Nebrija*Programacion/Programacion*I/tree/master/practicas/1819)
+* [Curso 2018/19](./practicas/1819)
 
 # 7. Exámenes cursos pasados (enunciados y soluciones)
 
-* [Curso 2018/19](https://github.com/Nebrija*Programacion/Programacion*I/tree/master/examenes/1819)
-  * [Parcial](https://github.com/Nebrija*Programacion/Programacion*I/tree/master/examenes/1819/Parcial1)
-  * [Final Ordinaria](https://github.com/Nebrija*Programacion/Programacion*I/tree/master/examenes/1819/ordinaria)
-  * [Final Extraordinaria](https://github.com/Nebrija*Programacion/Programacion*I/tree/master/examenes/1819/extraordinaria)
+* [Curso 2018/19](./examenes/1819)
+  * [Parcial](./examenes/1819/Parcial1)
+  * [Final Ordinaria](./examenes/1819/ordinaria)
+  * [Final Extraordinaria](./master/examenes/1819/extraordinaria)
