@@ -1,8 +1,10 @@
 # Estructuras de datos
 
+**Cuando realizamos una estructura de datos estamos creando un nuevo _tipo_**. Hemos visto que los datos siemples, son entre otros _int_, _float_, _bool_, _char_. A partir de esos tipos simples podemos crear **nuevos tipos más elaborados**. Es muy importante entender que lo que estamos haciendo es __enriquecer el lenguaje de programación creando **nuevos tipos**.__
+
 En la mayoría de los casos los datos no estarán aislados unos de otros, sino que tendrán algún tipo de relación entre ellos. Por ejemplo, los datos *edad*, *altura* y *peso* pueden ser los datos de una persona.
 
-Las estructuras de datos nos permiten agrupar datos asociándolos a una sola *variable* (etiqueta). Para ello debemos definir un nuevo tipo de dato **struct**. He aquí un ejemplo.
+Las estructuras de datos nos permiten agrupar datos asociándolos a un solo *tipo*. Para ello debemos definir un nuevo tipo de dato **struct**. He aquí un ejemplo.
 
 ```cpp
   struct Person{
@@ -12,12 +14,15 @@ Las estructuras de datos nos permiten agrupar datos asociándolos a una sola *va
   };
 ``` 
 
-Lo que hace este fragmento de código es definir un nuevo tipo de dato, llamado person. Ahora podemos crear variables de tipo *person*, asignarle un valor a cada uno de sus *miembros* (campos de la estructura) o acceder a su valor.
+Lo que hace este fragmento de código es **definir un nuevo tipo de dato** llamado _Person_. _Person_ no es una varaible, **es un tipo de dato**. Este nuevo tipo está conformado por varios **miembros**: _edad_, _altura_ y _peso_. 
+
+Una vez creado el **nuevo tipo _Person_** podemos crear variables/etiquetas de tipo *Person*, y asociarles un valor a cada uno de sus *miembros* (campos de la estructura).
 
 ```cpp
 
   #include <iostream>
 
+  // Declarion de un nuevo tipo llamado Person
   struct Person{
     int edad;
     float altura;
@@ -26,9 +31,11 @@ Lo que hace este fragmento de código es definir un nuevo tipo de dato, llamado 
 
   int main(){
 
+    // Declaracion de variables de tipo Person
     Person juan;
     Person maria;
 
+    // Asociacion de valores a los miembros de las variables de tipo Person
     juan.edad = 38;
     juan.altura = 182.5;
     juan.peso = 79.2;
@@ -37,7 +44,8 @@ Lo que hace este fragmento de código es definir un nuevo tipo de dato, llamado 
     maria.altura = 174;
     maria.peso = 56.4;
 
-    std::cout << maria.edad << std::endl;
+    // Acceso a los miembros de las variables de tipo Person
+    std::cout << maria.edad << "/n";
 
     return 0;
   }
@@ -73,38 +81,44 @@ Las estrucuturas se pueden anidar para obtener estructuras más complejas. Por e
 
   #include <iostream>
 
+  // Crea un nuevo tipo de datos llamado Person
   struct Person{
     int age;
     float height;
     float weight;
   };
 
+  // Crea un nuevo tipo de datos llamado Bascket3Team
   struct Basket3Team{
-    Person player1;
-    Person player2;
-    Person player3;
+    Person player1; // player1 es de tipo Person
+    Person player2; // player2 es de tipo Person
+    Person player3; // player3 es de tipo Person
     unsigned int won_games;
     unsigned int lost_games;
   };
 
+  // luis es una variable de tipo Person
   Person luis{
     38,
     182.5,
     79.2
   };
 
+  // maria es una variable de tipo Person
   Person maria{
     29,
     178.3,
     58.3,
   };
 
+  // juan es una variable de tipo Person
   Person juan{
     34,
     197.2,
     87.5
   };
 
+  // warriors es una variable de tipo Bascket3Team
   Basket3Team warriors{
     luis,
     maria,

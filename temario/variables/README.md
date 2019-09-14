@@ -22,14 +22,38 @@ Veamos cómo se escribe eso en C++
 2. Luego estoy creando una _etiqueta_ llamada _age_, y estoy indicándole a mi programa que esa etiqueta va a tener asociado un número entero (esto lo indica la palabra _int_).
 3. Asocio a la etiqueta *age* el dato 37.
 
-Vamos a modificar el programa
+**C++ es un lenguaje tipado**, es decir, al escribir el código debo indicar qué tipo de datos va a estar asociado a cada variable (etiqueta). El compilador se encargará que comprobar que esto es consistente a lo largo de todo el programa.
+
+Por ejemplo, el siguiente programa daría un error de compilación, porque estoy intentando asociar a una variable de tipo entero (_int_) un dato decimal.
+
+```cpp
+  int a = 3.5; // Error de compilacion
+```
+
+Es muy importante distinguir entre el tipo y el nombre;
+
+```int a; ``` crea una etiqueta, o variable, de **tipo entero** y con nombre **a**. Del mismo modo, imaginemos que existiese un tipo ``` Person ``` en un supuesto lenguaje de programación, entonces:
+
+``` Person alberto; ``` crearía una variable **llamada** _alberto_ de tipo _Person_. De hecho nuestro programa podría declarar varias variables **de tipo** _Person_
+
+```
+  Person alberto;
+  Person maria;
+  Person laura;
+  Person luis;
+ ```
+
+Es fundamental no confundir el tipo: _Person_ con el nombre de la variable/etiqueta _alberto_, _maria_, _laura_, _luis_.
+
+
+Vamos a seguir aclarando cómo funciona un programa al crear variables y asociarles datos.
 
 ```cpp
  int age = 37;
- std::cout << age << std::endl;
+ std::cout << age << "/n";
 ```
 
-El código `std::cout << algo << std::endl;` lo que hace es mostrar por pantalla _algo_. Por lo tanto, qué hace este fragmento de código.
+El código `std::cout << algo << "/n";` lo que hace es mostrar por pantalla _algo_. Por lo tanto, qué hace este fragmento de código. `"/n"` es un salto de línea.
 
 1. Se guarda en la memoria física de nuestro ordenador el dato 37 (100101)
 2. Estoy creando una _etiqueta_ llamada _age_, y estoy indicándole a mi programa que esa etiqueta va estar relacionada con un número entero (la palabra _int_).
@@ -44,9 +68,9 @@ En este caso, hemos utilizado la variable (etiquega) _age_ para acceder al valor
 
 ```cpp
  int age = 37;
- std::cout << age << std::endl;
+ std::cout << age << "/n";
  age = 22;
- std::cout << age << std::endl;
+ std::cout << age << "/n";
 ```
 
 Veamos paso por paso qué sucede:
@@ -70,13 +94,7 @@ Este es el proceso fundamental para el manipulado de datos:
 * Asocio datos a esas etiquetas (variables).
 * Leo los valores asociados a esas etiquetas (variables).
 
-**C++ es un lenguaje tipado**, es decir, al escribir el código debo indicar qué tipo de datos va a estar asociado a cada variable (etiqueta). El compilador se encargará que comprobar que esto es consistente a lo largo de todo el programa.
 
-Por ejemplo, el siguiente programa daría un error de compilación, porque estoy intentando asociar a una variable de tipo entero (_int_) un dato decimal.
-
-```cpp
-  int a = 3.5; // Error de compilacion
-```
 
 ## Constantes
 
@@ -84,18 +102,24 @@ En C++ las variables (etiquetas) podemos marcarlas como constantes. Con esto, le
 
 ```cpp
  const int bornDate = 1982;
- std::cout << bornDate << std::endl;
+ std::cout << bornDate << "/n";
 ```
 
 El siguiente programa produciría un error de compilación, ya que estamos intentando asociar a la etiqueta _bornDate_ un nuevo valor.
 
 ```cpp
  const int bornDate = 1982;
- std::cout << bornDate << std::endl;
+ std::cout << bornDate << "/n";
  bornDate = 1991; //error de compilacion
 ```
 
 ## Declaración e inicialización de variables
+
+La declaración de una variable siempre sigue la misma estructura:
+
+### Variable sin inicializar
+
+```TIPO NOMBRE;```
 
 Cuando declaramos una variable en C++ no es necesario que la asociemos con un valor desde el principio. Este fragmento de código crea primero las variables y luego las asocia con un valor.
 
@@ -111,11 +135,15 @@ Cuando declaramos una variable en C++ no es necesario que la asociemos con un va
 3. Se asocia a la variable age el valor 27.
 4. Se asocia a la variable weight el valor 75.6
 
-Dado a que **no podemos asociar valores a las variables constantes después de crearlas** las constantes siempre se deberán inicializar cuando se crean.
 
-```cpp
- const int bornDate; // error de compilacion
-```
+### Variable inicializada
+
+```TIPO NOMBRE = VALOR INICIAL;```
+
+o bien
+
+```TIPO NOMBRE{VALOR INICIAL};```
+
 
 *Hay 2 modos de incializar variables en C++*, el modo clásico es como se ha visto anteriormente
 
@@ -130,13 +158,20 @@ En C++ moderno las variables se pueden inicializar de este otro modo:
 
 <a href = "http://www.stroustrup.com/" target="_blank">Bjarne Stroustrup</a>, creador de C++, recomienda que se inicialicen utilizando la notación moderna `int a{3};`. La justificación requiere un conocimiento más profundo de C++.
 
-La asignación siempre se realizará usando el operador =
+### Asociación de una variable con un valor
+
+La asignación/asociación siempre se realizará usando el operador `=`
 
 ```cpp
  int a{3};
  a = 2;
 ```
 
+Dado a que **no podemos asociar valores a las variables constantes después de crearlas** las constantes siempre se deberán inicializar cuando se crean.
+
+```cpp
+ const int bornDate; // error de compilacion
+```
 
 ## Errores comunes
 
@@ -161,9 +196,8 @@ C++ es un lenguaje que se compila de arriba a abajo, por lo tanto, antes de pode
  int age = 22;
 ```
 
-Vamos a ver los tipos de variables más importantes de C++
+C++ proporciona _unos pocos_ tipos simples para los datos, enteros, decimales, carácteres, bool, etc. Con estos tipos simples luego construiremos tipos más elaborados, que no dejarán de ser agrupaciones de tipos simples. Sería como decir que en un edificio hay _unos pocos_ tipos simplres, que serían los ladrillos, las baldosas, las tejas, etc. y esos _tipos simples_ se asocial para construir elementos más complejos como pueden ser suelos, tejados, paredes, etc.
 
-* [Tipos simples](./tipossimples.md)
-* [Estrucutras de datos](./estructuras.md)
-* [Tipos de la biblioteca std](./std.md)
-* [Punteros](./punteros.md)
+Éstos son los **[tipos simples](./tipossimples.md)** más importantes que proporciona C++. A partir de esos tipos simples podemos elaborar tipos más complejos, las **[estrucutras de datos](./estructuras.md)**. A su vez, C++ tiene sus propias estructuras de datos elaboradas, que están incluídas en la biblioteca estándar de C++. Los estudiamos en la sección: **[Tipos de la biblioteca std](./std.md)**.
+
+Finalmente C++ nos proporciona una herramienta para poder manejar en mayor detalle las asociaciones entre variables/equiteas y los datos asociados, son los **[punteros](./punteros.md)**.
