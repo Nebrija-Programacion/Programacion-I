@@ -5,12 +5,12 @@
 
   * [Tipos simples: _short, int, float, double, char, boolean_, etc.](./temario/variables/tipossimples.md)
   * [Estrucutras: _struct_](./temario/variables/estructuras.md)
-  * **Tidos de datos de la biblioteca std**
-    * _std::string__
-    * _std::array_
-    * _std::vector_
-    * _std::set_
-    * _std::map_
+  * **[Tidos de datos de la biblioteca std](./temario/datosstd/README.md)**
+    * [_std::string_](./temario/datosstd/string.md)
+    * [_std::array_](./temario/datosstd/array.md)
+    * [_std::vector_](./temario/datosstd/vector.md)
+    * [_std::set_](./temario/datosstd/set.md)
+    * [_std::map_](./temario/datosstd/map.md)
   * **Punteros**: Valor y referencia.
 
 * **Entrada y salida de datos**

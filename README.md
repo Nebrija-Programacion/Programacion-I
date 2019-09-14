@@ -15,7 +15,13 @@
   * [Ejercicio 1 de la colección](./EJERCICIOS.md)
 
 ## Sesión 2
+* **[Tidos de datos de la biblioteca std](./temario/datosstd/README.md)**
+    * [_std::string_](./temario/datosstd/string.md) 
 
+* **Entrada y salida de datos**
+  * Salida por pantalla: _cout_
+  * Entrada por teclado: _cin_
+  
 # 2. Prácticas
 
 * Práctica I

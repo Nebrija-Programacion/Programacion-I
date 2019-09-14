@@ -236,4 +236,57 @@ int main(){
     return 0;
 }
 ``` 
+## insert
+Introduce una cadena de texto antes de la posición indicada por el índice.
 
+```cpp
+#include <iostream>
+#include <string>
+
+int main ()
+{
+  std::string str{"to be question"};
+  std::string str2{"the "};
+  
+  str.insert(6,str2); 
+  std::cout << str << "\n"; // -> to be (the )question
+}
+```
+
+## erase
+Elimina una porción de una cadena de texto, para ello indicamos la posición inicial y el número de caracteres a eliminar.
+
+```cpp
+#include <iostream>
+#include <string>
+
+int main ()
+{
+  std::string str{"This is an example sentence."};
+  std::cout << str << '\n';  // -> This is an example sentence.
+  str.erase (10,8);
+  std::cout << str << '\n'; // -> This is an sentence.
+}
+
+```
+
+## pop_back
+Elimina el último carácter de una cadena de texto
+
+```cpp
+#include <iostream>
+#include <string>
+
+int main ()
+{
+  std::string str{"This is an example sentence"};
+  std::cout << str << '\n'; // -> This is an example sentence
+  str.pop_back();
+  std::cout << str << '\n'; // -> This is an example sentenc
+  str.pop_back();
+  std::cout << str << '\n'; // -> This is an example senten
+}
+``` 
+
+## Para completar
+  * [Referencia del tipo string](http://www.cplusplus.com/reference/string/string/)
