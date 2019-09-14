@@ -45,7 +45,7 @@ Una vez creado el **nuevo tipo _Person_** podemos crear variables/etiquetas de t
     maria.peso = 56.4;
 
     // Acceso a los miembros de las variables de tipo Person
-    std::cout << maria.edad << "/n";
+    std::cout << maria.edad << "\n";
 
     return 0;
   }
@@ -128,7 +128,7 @@ Las estrucuturas se pueden anidar para obtener estructuras más complejas. Por e
   };
 
   int main(){
-    std::cout << warrios.player2.age << std::endl; // it prints maria.age -> 29
+    std::cout << warrios.player2.age << "\n"; // it prints maria.age -> 29
     return 0;
   }
 ```

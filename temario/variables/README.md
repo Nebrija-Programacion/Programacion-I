@@ -50,10 +50,10 @@ Vamos a seguir aclarando cómo funciona un programa al crear variables y asociar
 
 ```cpp
  int age = 37;
- std::cout << age << "/n";
+ std::cout << age << "\n";
 ```
 
-El código `std::cout << algo << "/n";` lo que hace es mostrar por pantalla _algo_. Por lo tanto, qué hace este fragmento de código. `"/n"` es un salto de línea.
+El código `std::cout << algo << "\n";` lo que hace es mostrar por pantalla _algo_. Por lo tanto, qué hace este fragmento de código. `"\n"` es un salto de línea.
 
 1. Se guarda en la memoria física de nuestro ordenador el dato 37 (100101)
 2. Estoy creando una _etiqueta_ llamada _age_, y estoy indicándole a mi programa que esa etiqueta va estar relacionada con un número entero (la palabra _int_).
@@ -68,9 +68,9 @@ En este caso, hemos utilizado la variable (etiquega) _age_ para acceder al valor
 
 ```cpp
  int age = 37;
- std::cout << age << "/n";
+ std::cout << age << "\n";
  age = 22;
- std::cout << age << "/n";
+ std::cout << age << "\n";
 ```
 
 Veamos paso por paso qué sucede:
@@ -102,14 +102,14 @@ En C++ las variables (etiquetas) podemos marcarlas como constantes. Con esto, le
 
 ```cpp
  const int bornDate = 1982;
- std::cout << bornDate << "/n";
+ std::cout << bornDate << "\n";
 ```
 
 El siguiente programa produciría un error de compilación, ya que estamos intentando asociar a la etiqueta _bornDate_ un nuevo valor.
 
 ```cpp
  const int bornDate = 1982;
- std::cout << bornDate << "/n";
+ std::cout << bornDate << "\n";
  bornDate = 1991; //error de compilacion
 ```
 
@@ -181,7 +181,7 @@ El siguiente fragmento de código es posible, pero, ¿qué mostraría por pantal
 
 ```cpp
  int age;
- std::cout << age << std::endl;
+ std::cout << age << "\n";
  age = 22;
 ```
 
@@ -192,7 +192,7 @@ El siguiente fragmento de código es posible, pero, ¿qué mostraría por pantal
 C++ es un lenguaje que se compila de arriba a abajo, por lo tanto, antes de poder usar cualquier variable (etiqueta) debe haber sido declarada antes.
 
 ```cpp
- std::cout << age << std::endl; // Error de compilacion, age no existe
+ std::cout << age << "\n"; // Error de compilacion, age no existe
  int age = 22;
 ```
 

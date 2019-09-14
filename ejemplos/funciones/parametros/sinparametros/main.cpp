@@ -28,7 +28,7 @@ void printTime(){
     time = std::chrono::system_clock::now();
     std::time_t date = std::chrono::system_clock::to_time_t(time);
 
-    std::cout << "Current date and time is  " << std::ctime(&date) << std::endl;
+    std::cout << "Current date and time is  " << std::ctime(&date) << "\n";
 }
 
 int main()
