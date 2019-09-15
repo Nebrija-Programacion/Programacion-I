@@ -24,9 +24,8 @@
   
   --------------------------------------------------------
 
-  *[Presentacion]
   *[Ejercicios 2 y 3 de la colección](./EJERCICIOS.md)
-  
+
 # 2. Prácticas
 
 * Práctica I
