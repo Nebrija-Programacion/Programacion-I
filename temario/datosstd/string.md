@@ -288,5 +288,71 @@ int main ()
 }
 ``` 
 
+## find
+Busca una cadena de texto dentro de otra desde el inicio o a partir de la posición que le pasemos. La función find devuelve en qué posición lo ha encontrado.
+
+### Desde el inicio
+
+```cpp
+#include <iostream>       
+#include <string>         
+
+int main ()
+{
+  std::string str{"There are two needles in this haystack with needles."};
+
+  int found = str.find("needle");
+  std::cout << "first 'needle' found at: " << found << '\n'; // -> first 'needle' found at: 14
+  return 0
+}
+``` 
+### Desde una posición
+```cpp
+#include <iostream>       
+#include <string>         
+
+int main ()
+{
+  std::string str{"There are two needles in this haystack with needles."};
+
+  int found = str.find("needle", 15);
+  std::cout << "second 'needle' found at: " << found << '\n'; // -> second 'needle' found at: 44
+  return 0
+}
+```
+
+Si no encuentra la cadena devuelve -1
+
+```cpp
+#include <iostream>       
+#include <string>         
+
+int main ()
+{
+  std::string str{"There are two needles in this haystack with needles."};
+
+  int found = str.find("dog");
+  std::cout << "'dog' found at: " << found << '\n'; // -> 'dog' found at: -1
+  return 0
+}
+``` 
+
+## substr
+Extrae una _subcadena_ de una cadena dada. Para ello indicamos la posición inicial y el número de carácteres a extraer.
+
+```cpp
+#include <iostream>
+#include <string>
+
+int main ()
+{
+  std::string str{"We think in generalities, but we live in details."};
+  std::string str2 = str.substr (3,5); 
+  std::cout << str2 << "\n"; // -> think
+  return 0;
+}
+```
+
+
 ## Para completar
   * [Referencia del tipo string](http://www.cplusplus.com/reference/string/string/)

@@ -22,6 +22,11 @@
   * Salida por pantalla: _cout_
   * Entrada por teclado: _cin_
   
+  --------------------------------------------------------
+
+  *[Presentacion]
+  *[Ejercicios 2 y 3 de la colección](./EJERCICIOS.md)
+  
 # 2. Prácticas
 
 * Práctica I
@@ -51,4 +56,4 @@
 * [Curso 2018/19](./examenes/1819)
   * [Parcial](./examenes/1819/Parcial1)
   * [Final Ordinaria](./examenes/1819/ordinaria)
-  * [Final Extraordinaria](./master/examenes/1819/extraordinaria)
+  * [Final Extraordinaria](./examenes/1819/extraordinaria)
