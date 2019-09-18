@@ -28,9 +28,9 @@ int main() {
 ```
 ¿Qué hace este programa?
    1. Crea la etiequeta/variable num, que será de tipo _int_. No la inicializa con ningún valor.
-   2. Muestra por pantalla el texto `Introduce un número por teclado\n`.
+   2. Muestra por pantalla el texto `Introduce un número por teclado`.
    3. Ahora el programa se queda esperando a que introduzcamos un valor por teclado y pulsemos `enter`.
-   4. `número + enter++`
+   4. `número + enter`
    5. Se almacena el _número_ en la memoria del ordenador y se asocial a la variable _num_;
    6. Se muestra por pantalla: `El número introducido por teclado es {numero}`
    7. Finaliza el programa devolviendo _0_.
@@ -101,7 +101,7 @@ int main() {
 }
 ```
 
-El modo correcto de introducir los dos números en este programa sería: _numero 1_ + espacio + _numero 2_ + enter o bien _numero 1_ + enter + _numero 2_ + enter
+El modo correcto de introducir los dos números en este programa sería: `numero 1 + espacio + numero 2 + enter` o bien `numero 1 + enter + numero 2 + enter`.
 
 También se pueden combinar tipos de datos:
 
@@ -118,7 +118,7 @@ También se pueden combinar tipos de datos:
 }
 ```
 
-El modo correcto de introducir el número y la palabra en este programa sería: _numero_ + espacio + _palabra_ + enter o bien _numero_ + enter + _palabra_ + enter
+El modo correcto de introducir el número y la palabra en este programa sería: `numero + espacio + palabra + enter` o bien `numero + enter + palabra + enter`
 
 ## std::cout
 
