@@ -19,8 +19,8 @@
     * [_std::string_](./temario/datosstd/string.md) 
 
 * **Entrada y salida de datos**
-  * Salida por pantalla: _cout_
-  * Entrada por teclado: _cin_
+  * [Salida por pantalla: _std::cout_](./temario/inout/cincout.md)
+  * [Entrada por teclado: _std::cin_](./temario/inout/cincout.md)
   
   --------------------------------------------------------
 
