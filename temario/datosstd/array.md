@@ -23,7 +23,7 @@ Para inicializar un `std::array` indicaremos sus valores entre llaves y separado
 std::array<int,5> arr{1,4,5,3,6};
 ```
 
-<p align="center">
+<p align="left">
 <img src="./images/array.png" alt="array"/>
 </p>
 
