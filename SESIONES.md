@@ -13,7 +13,7 @@
   * [Ejercicio 1 de la colección](./EJERCICIOS.md)
 
 ## Sesión 2
-* **[Tidos de datos de la biblioteca std](./temario/datosstd/README.md)**
+* **[Tipos de datos de la biblioteca std](./temario/datosstd/README.md)**
     * [_std::string_](./temario/datosstd/string.md) 
 
 * **Entrada y salida de datos**
@@ -30,5 +30,9 @@
   * [_if-else_](./temario/flujo/ifelse.md)
   * [_if-else if-else_](./temario/flujo/ifelse.md)
   * [_switch-case_](./temario/flujo/switch.md)
-* [Tidos de datos de la biblioteca std](./temario/datosstd/README.md)
+* [Tipos de datos de la biblioteca std](./temario/datosstd/README.md)
   * [_std::array_](./temario/datosstd/array.md)
+
+  --------------------------------------------------------
+
+  * [Ejercicios xxxx de la colección](./EJERCICIOS.md)
