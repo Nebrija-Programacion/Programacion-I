@@ -120,6 +120,23 @@ También se pueden combinar tipos de datos:
 
 El modo correcto de introducir el número y la palabra en este programa sería: `numero + espacio + palabra + enter` o bien `numero + enter + palabra + enter`
 
+### Leyendo una línea completa
+
+Según acabamos de ver, cada fragmento escrito por teclado separado por espacios se guarda en una variable distinta. Es decir, si el usuario escribiera por teclado "En un lugar de La Mancha", necesitaríamos 6 variables de tipo `string` para almacenar en cada una de ellas una de las palabras, pero, *¿cómo debe ser nuestro programa para asociar toda la línea a una sóla variable de tipo `string`?* Se utiliza la función `getLine`.
+
+```cpp
+#include <iostream>
+#include <string>
+
+int main() {
+  std::string line;
+  std::cout << "Introduce una frase\n";
+  std::getline(std::cin, line); // El usuario escribe 'En un lugar de La Mancha'
+  std::cout <<"Has escrito: " << line << "\n"; // -> Has escrito: En un lugar de La Mancha
+  return 0;
+}
+``` 
+
 ## std::cout
 
 El funcionamiento de `std::cout` lo hemos visto a través de los ejemplos anteriores. Nos permite concatenar la salida por pantalla de valores asociados a variables o bien directamente de los valores.
