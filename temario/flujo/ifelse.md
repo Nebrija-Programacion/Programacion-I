@@ -125,6 +125,10 @@ Accion 3
 Accion 4
 ```
 
+<p align="center">
+<img src="./images/ifelseif.png" alt="ifelseif"/>
+</p>
+
 Un ejemplo sería
 
 ```cpp
