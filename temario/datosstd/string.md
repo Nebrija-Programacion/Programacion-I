@@ -104,7 +104,7 @@ int main(){
 
 **Ejercicio**: ¿Cómo sería un programa que elimina el último carácter de cualquier cadena de texto?
 
-## clear
+### clear
 
 La función clear borra el contenido de una cadena de texto.
 
@@ -123,7 +123,7 @@ int main(){
 ```
 **Ejercicio** ¿Cuál sería la diferencia entre hacer `texto.clear()` y `texto.resize(0)`?
 
-## empty
+### empty
 
 Devuelve verdadero (_true_) si la cadena de texto está vacía, o falso (_false_) en caso contrario.
 
@@ -143,7 +143,7 @@ int main(){
 }
 ```
 
-## at
+### at
 
 La función at nos permite acceder al carácter en la posición _n_ de la cadena de texto. **El primer caracter será el 0, y el último en _longitud - 1_
 
@@ -164,7 +164,7 @@ int main(){
 }
 ```
 
-## back y front
+### back y front
 Devuelven respectivamente el último y el primer carácter de la cadena de texto.
 
 ```cpp
@@ -183,7 +183,7 @@ int main(){
 }
 ``` 
 
-## append
+### append
 Añade una cadena de texto al final de la cadena que se está modificando.
 
 ```cpp
@@ -199,7 +199,7 @@ int main(){
 }
 ```
 
-## push_back
+### push_back
 
 Añade un carácter al final de una cadena de texto
 
@@ -219,7 +219,7 @@ int main(){
 }
 ``` 
 
-## Operador +
+### Operador +
 El operador + concatena dos cadenas de texto
 
 ```cpp
@@ -236,7 +236,7 @@ int main(){
     return 0;
 }
 ``` 
-## insert
+### insert
 Introduce una cadena de texto antes de la posición indicada por el índice.
 
 ```cpp
@@ -253,7 +253,7 @@ int main ()
 }
 ```
 
-## erase
+### erase
 Elimina una porción de una cadena de texto, para ello indicamos la posición inicial y el número de caracteres a eliminar.
 
 ```cpp
@@ -270,7 +270,7 @@ int main ()
 
 ```
 
-## pop_back
+### pop_back
 Elimina el último carácter de una cadena de texto
 
 ```cpp
@@ -288,10 +288,10 @@ int main ()
 }
 ``` 
 
-## find
+### find
 Busca una cadena de texto dentro de otra desde el inicio o a partir de la posición que le pasemos. La función find devuelve en qué posición lo ha encontrado.
 
-### Desde el inicio
+#### Desde el inicio
 
 ```cpp
 #include <iostream>       
@@ -306,7 +306,7 @@ int main ()
   return 0
 }
 ``` 
-### Desde una posición
+#### Desde una posición
 ```cpp
 #include <iostream>       
 #include <string>         
@@ -337,7 +337,7 @@ int main ()
 }
 ``` 
 
-## substr
+### substr
 Extrae una _subcadena_ de una cadena dada. Para ello indicamos la posición inicial y el número de carácteres a extraer.
 
 ```cpp

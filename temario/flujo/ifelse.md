@@ -194,5 +194,4 @@ int main() {
 | :---------------: | :--------------: |
 |  cond1 && cond 2  |  cond1 Y cond2   |
 | cond 2 \|\| cond2 |  cond1 Y cond2   |
-|       cond1       |                  |
 |      !cond1       |     NO cond1     |
