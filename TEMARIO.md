@@ -11,23 +11,23 @@
     * [_std::vector_](./temario/datosstd/vector.md)
     * [_std::set_](./temario/datosstd/set.md)
     * [_std::map_](./temario/datosstd/map.md)
-  * **Punteros**: Valor y referencia.
+  * [**Punteros**: Valor y referencia](./temario/punteros.md/)
 
 * **Entrada y salida de datos**
-  * Salida por pantalla: _cout_
-  * Entrada por teclado: _cin_
+  * [Salida por pantalla: _std::cout_](./temario/inout/cincout.md)
+  * [Entrada por teclado: _std::cin_](./temario/inout/cincout.md)
   * Lectura y Escritura de archivos: _fstream_
 * **Control de flujo**
   * Condicionales
-    * _if_
-    * _if-else_
-    * _if-else if-else_
-    * _switch-case_
+    * [_if_](./temario/flujo/ifelse.md)
+    * [_if-else_](./temario/flujo/ifelse.md)
+    * [_if-else if-else_](./temario/flujo/ifelse.md)
+    * [_switch-case_](./temario/flujo/switch.md)
   * Bucles
-    * _for_
-    * _while_
-    * _do-while_
-    * Recorriendo estructuras de datos iterables (_std::array_, _std::vector_, _std::set_, _std::map_).
+    * [_for_](./temario/flujo/for.md)
+    * [_while_](./temario/flujo/while.md)
+    * [_do-while_](./temario/flujo/dowhile.md)
+    * Recorriendo estructuras de datos iterables (_std::string_, _std::array_, _std::vector_, _std::set_, _std::map_).
 * **Funciones**
 
   * Funciones sin parámetros.
