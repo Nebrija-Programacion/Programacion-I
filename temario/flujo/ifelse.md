@@ -22,5 +22,5 @@ int main() {
 Sin embargo, lo habitual en un programa es que se tome distintos caminos en función del valor que puedan tener los datos, por ejemplo.
 
 <img src="./images/if.png"
-     alt="Secuencial"
+     alt="if"
      style="display: block; margin-left:auto; margin-right:auto" />
