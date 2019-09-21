@@ -28,6 +28,9 @@
     * [_while_](./temario/flujo/while.md)
     * [_do-while_](./temario/flujo/dowhile.md)
     * Recorriendo estructuras de datos iterables (_std::string_, _std::array_, _std::vector_, _std::set_, _std::map_).
+      * [for(elem:v)](./temario/flujo/forelem.md)
+      * [std::for_each](./temario/flujo/foreach.md)
+      * [std::transform](./temario/flujo/transform.md)
 * **Funciones**
 
   * Funciones sin parámetros.
