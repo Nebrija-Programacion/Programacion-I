@@ -23,4 +23,4 @@ Sin embargo, lo habitual en un programa es que se tome distintos caminos en func
 
 <img src="./images/if.png"
      alt="if"
-     style="display: block; margin-left:auto; margin-right:auto" />
+     style="display: block; margin-left:auto; margin-right:auto; width: 50%" />
