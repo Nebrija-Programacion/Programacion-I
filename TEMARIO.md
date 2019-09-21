@@ -2,7 +2,6 @@
 
 * [Hola Mundo](./temario/holamundo/README.md)
 * [Variables](./temario/variables/README.md)
-
   * [Tipos simples: _short, int, float, double, char, boolean_, etc.](./temario/variables/tipossimples.md)
   * [Estrucutras: _struct_](./temario/variables/estructuras.md)
   * **[Tidos de datos de la biblioteca std](./temario/datosstd/README.md)**
@@ -16,7 +15,7 @@
 * **Entrada y salida de datos**
   * [Salida por pantalla: _std::cout_](./temario/inout/cincout.md)
   * [Entrada por teclado: _std::cin_](./temario/inout/cincout.md)
-  * Lectura y Escritura de archivos: _fstream_
+  * [Lectura y Escritura de archivos: _std::fstream_](./temario/inout/fstream.md)
 * **Control de flujo**
   * Condicionales
     * [_if_](./temario/flujo/ifelse.md)
