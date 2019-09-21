@@ -1,4 +1,4 @@
-# Condicionales if - else if - else
+# Condicionales
 
 Un programa donde no hubiera control de flujo tendría esta estructura:
 <p align="center">
@@ -176,3 +176,22 @@ int main() {
   return 0;
 }
 ```
+
+## Operadores de igualdad y desigualdad
+
+|**Operador**|**Siginificado**   	|
+|:--------:	|:-----------------:	|
+|    ==    	|     Igual que     	|
+|    !=    	|    Distinto que   	|
+|     >    	|     Mayor que     	|
+|     <    	|     Menor que     	|
+|    >=    	| Mayor o igual que 	|
+|    <=    	| Menor o igual que 	|
+
+## Composición de operaciones booleanas
+
+| **Condición** | **Siginificado** |
+| :-----------: | :--------------: ||
+|    cond1 && cond 2    	|     cond1 Y cond2  	|
+|    cond1 || cond 2    	|     cond1 Y cond2  	|
+|    !cond1    	          |     NO cond1     	  |
