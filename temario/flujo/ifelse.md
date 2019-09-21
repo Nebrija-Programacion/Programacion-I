@@ -1,10 +1,9 @@
 # Condicionales if - else if - else
 
 Un programa donde no hubiera control de flujo tendría esta estructura:
-
-<img src="./images/secuencial.png"
-     alt="Secuencial"
-     style="align: center;" />
+<p align="center">
+<img src="./images/secuencial.png" alt="Secuencial"/>
+</p>
 
 Por ejemplo
 
@@ -20,7 +19,6 @@ int main() {
 ``` 
 
 Sin embargo, lo habitual en un programa es que se tome distintos caminos en función del valor que puedan tener los datos, por ejemplo.
-
-<img src="./images/if.png"
-     alt="if"
-     style="display: block; margin-left:auto; margin-right:auto; width: 50%" />
+<p align="center">
+<img src="./images/if.png" alt="if"/>
+</p>
