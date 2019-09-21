@@ -35,4 +35,4 @@
 
   --------------------------------------------------------
 
-  * [Ejercicios xxxx de la colección](./EJERCICIOS.md)
+  * [Ejercicio 4 de la colección](./EJERCICIOS.md)
