@@ -12,14 +12,15 @@ Los **condicionales** ofrecen distinas alternativas en función del valor de los
 En C++ existen las siguientes instrucciones de control de flujo genéricas:
 
 **Condicionales**
-   * [_if_](ifelse.md)
-   * [_if-else_](ifelse.md)
-   * [_if-else if-else_](ifelse.md)
-   * [_switch-case_](switch.md)
+  * [_if_](ifelse.md)
+  * [_if-else_](ifelse.md)
+  * [_if-else if-else_](ifelse.md)
+  * [_switch-case_](switch.md)
+
 **Bucles**
-   * [_for_](for.md)
-   * [_while_](while.md)
-   * [_do-while_](dowhile.md)
+  * [_for_](for.md)
+  * [_while_](while.md)
+  * [_do-while_](dowhile.md)
 
 C++ también ofrece el bucle [`for elem:v`](forelem.md) para recorrer los tipos iterables : `std::string`, `std::array`, `std::vector`, etc.
 
