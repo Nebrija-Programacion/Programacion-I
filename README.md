@@ -67,3 +67,6 @@
   * [Parcial](./examenes/1819/Parcial1)
   * [Final Ordinaria](./examenes/1819/ordinaria)
   * [Final Extraordinaria](./examenes/1819/extraordinaria)
+
+# 8. Recursos de otras universidades.
+  * [Universidad de Granada. Fundamentos de Programación](https://github.com/DEIIT/Ingenieria-Informatica/tree/master/1%C2%BA%201er%20cuatrimestre/Fundamentos%20de%20programaci%C3%B3n)
