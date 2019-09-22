@@ -29,9 +29,9 @@
   * [_if_](./temario/flujo/ifelse.md)
   * [_if-else_](./temario/flujo/ifelse.md)
   * [_if-else if-else_](./temario/flujo/ifelse.md)
-  * [_switch-case_](./temario/flujo/switch.md)
 * [Tipos de datos de la biblioteca std](./temario/datosstd/README.md)
   * [_std::array_](./temario/datosstd/array.md)
+* [Iterando sobre un std::array o std::string](./temario/flujo/forelem.md)
 
   --------------------------------------------------------
 
