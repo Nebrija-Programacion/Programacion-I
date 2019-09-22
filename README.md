@@ -1,8 +1,6 @@
 # Asignatura de Programacion I * Grado Ingeniería Informática * Universidad Nebrija
 
-# 1. Sesiones
-
-# 1. Sesiones de la asignatura
+# 1. Sesiones de clase
 
 [Apuntes de cada sesión de la asignatura](./SESIONES.md)
 
