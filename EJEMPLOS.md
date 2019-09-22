@@ -2,6 +2,8 @@
 
 ### Estructuras de datos en la biblioteca std
 
+* _std::string_
+  * [Juego del ahorcado](./ejemplos/flujo/while_dowhile/ahorcado.cpp)
 * _std::array_
 * _std::vector_
 * _std::set_
@@ -19,7 +21,9 @@
 * Bucles
   * _for_
   * _while_
+    * [Juego del ahorcado](./ejemplos/flujo/while_dowhile/ahorcado.cpp)
   * _do-while_
+    * [Juego del ahorcado](./ejemplos/flujo/while_dowhile/ahorcado.cpp)
   * Recorriendo estructuras de datos iterables.
 
 ### Funciones
