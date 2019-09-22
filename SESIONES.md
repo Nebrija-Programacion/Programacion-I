@@ -35,4 +35,20 @@
 
   --------------------------------------------------------
 
-  * [Ejercicio 4 de la colección](./EJERCICIOS.md)
+  * [Ejercicios 4, 5 y 6 de la colección](./EJERCICIOS.md)
+
+## Sesión 4
+
+* **[Tidos de datos de la biblioteca std](./temario/datosstd/README.md)**
+    * [_std::vector_](./temario/datosstd/vector.md)
+
+* **Control de flujo**
+  * Condicionales
+    * [_switch-case_](./temario/flujo/switch.md)
+  * Bucles
+    * [_while_](./temario/flujo/while.md)
+    * [_do-while_](./temario/flujo/dowhile.md)
+
+--------------------------------------------------------
+
+  * [Ejercicios 7, 8 y 9 de la colección](./EJERCICIOS.md)
