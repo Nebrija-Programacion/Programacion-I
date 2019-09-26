@@ -76,6 +76,48 @@ Se podría pensar que en cada iteración, modificamos el elemento del array haci
     2. La varaible `elem`, se asocia a un **nuevo dato** (en memoria) cuyo valor es el doble de `elem` (por lo tanto el array no se modifica).
  4. Finaliza el programa.
 
+## Interrumpiendo un buble
+En algunas ocasiones recorremos un objeto iterable buscando un elemento, y una vez que lo hemos encontrado ya no tiene sentido continuar (sería un gasto de recursos/tiempo innecesario e incluso podría hacer más compleja la programación). Para esos casos, C++ nos ofrece la opción de interrumpir un bucle con la instrucción `break`. Por ejemplo:
+
+```cpp
+#include <iostream>
+#include <array>
+
+int main() {
+  std::array<int, 10> arr{1,2,3,4,5,6,7,8,9,10};
+  for(int elem: arr){
+    std::cout << elem << "-";
+    if(elem == 4){
+      break;
+    }
+  }
+  std::cout << "Fin\n";
+}
+```
+
+Este programa mostrará por pantalla `1-2-3-4-Fin`, ¿por qué? porque cuando elem tiene asociado el valor 4 se interrumple la ejecución del bucle, y se ejecuta la siguiente instrucción que hay fuera del bucle: `std::cout << "Fin\n";`
+
+## "Cortocircuitando" un buble
+En otras ocasiones recorremos un objeto iterable, pero queremos que si se cumplen ciertas condiciones pasemos a la siguiente iteración, sin ejecutar lo que viene después. Para esos casos C++ ofrece la instrucción `continue`
+
+```cpp
+#include <iostream>
+#include <array>
+
+int main() {
+  std::array<int, 10> arr{1,2,3,4,5,6,7,8,9,10};
+  for(int elem: arr){
+    if(elem == 5){
+      continue;
+    }
+    std::cout << elem << "-";
+  }
+  std::cout << "Fin\n";
+}
+```
+
+Este programa mostrará por pantalla `1-2-3-4-6-7-8-9-10-Fin`, ¿por qué? porque cuando elem tiene asociado el valor 5, se "cortocirbuita" el bucle con la instrucción `continue`, es decir, no se ejecuta lo que viene después y se pasa a la siguiente iteración.
+
 
 Con el objetivo de mostrar la generalidad de este bucle, he aquí un ejemplo para variables de tipo `std::string`
 
