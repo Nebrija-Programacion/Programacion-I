@@ -38,6 +38,11 @@
   * [Ejercicios 4, 5 y 6 de la colección](./EJERCICIOS.md)
 
 ## Sesión 4
+  * Sesión de repaso y refuerzo
+  * Ejercicios xxx de la [colección](./EJERCICIOS.md)
+
+
+## Sesión 5
 
 * **[Tidos de datos de la biblioteca std](./temario/datosstd/README.md)**
     * [_std::vector_](./temario/datosstd/vector.md)
