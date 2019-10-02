@@ -39,7 +39,7 @@
 
 ## Sesión 4
   * Sesión de repaso y refuerzo
-  * Ejercicios xxx de la [colección](./EJERCICIOS.md)
+  * Ejercicios 7, 8, 9 y 10, 11 y 12 de la [colección](./EJERCICIOS.md)
 
 
 ## Sesión 5
@@ -56,4 +56,4 @@
 
 --------------------------------------------------------
 
-  * [Ejercicios 7, 8 y 9 de la colección](./EJERCICIOS.md)
+  * [Ejercicios xxx de la colección](./EJERCICIOS.md)
