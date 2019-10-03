@@ -10,7 +10,7 @@
 8. Pedir al usuario que introduzca un texto por teclado y mostrar todas las palabras que empiecen por "a".
 9. Crear un array de números enteros e indicar cuántas veces aparece el número 7.
 10. Crear un programa que calcule la media de un array de números enteros.
-11. Crear un array de números enteros e indicar cuál es el número que más veces aparece (y cuántas veces aparece).
+11. Crear un array de números enteros (entre el 1 y el 10) e indicar cuál es el número que más veces aparece (y cuántas veces aparece).
 12. Crear un array de números enteros e indicar cuántas veces seguidas aparece como máximo el número 7. Es decir, para el array {1,2,7,7,4,3,3,7,7,7,2} el número máximo de veces seguidas que aparece el 7 es 3. Aparece 2 veces seguidas, y 3 veces seguidas, por lo que el máximo es 3.
 14. Pedir al  usuario que introduzca un texto por teclado y mostrar todas las palabras que contengan al menos una "a".
 13. A partir de un vector de números enteros, crear otro que contenga sólo los números pares. Por ejemplo, a parir de {1,3,4,5,6,7} se crea -> {4,6}.
