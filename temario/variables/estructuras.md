@@ -1,6 +1,6 @@
 # Estructuras de datos
 
-**Cuando realizamos una estructura de datos estamos creando un nuevo _tipo_**. Hemos visto que los datos siemples, son entre otros _int_, _float_, _bool_, _char_. A partir de esos tipos simples podemos crear **nuevos tipos más elaborados**. Es muy importante entender que lo que estamos haciendo es __enriquecer el lenguaje de programación creando **nuevos tipos**.__
+**Cuando realizamos una estructura de datos estamos creando un nuevo _tipo_**. Hemos visto que los datos siemples, son entre otros _int_, _float_, _bool_, _char_. A partir de esos tipos simples podemos crear **nuevos tipos más elaborados**. Es muy importante entender que lo que estamos haciendo es _enriquecer el lenguaje de programación creando **nuevos tipos**._
 
 En la mayoría de los casos los datos no estarán aislados unos de otros, sino que tendrán algún tipo de relación entre ellos. Por ejemplo, los datos *edad*, *altura* y *peso* pueden ser los datos de una persona.
 

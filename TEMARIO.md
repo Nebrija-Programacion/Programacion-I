@@ -9,7 +9,6 @@
     * [_std::array_](./temario/datosstd/array.md)
     * [_std::vector_](./temario/datosstd/vector.md)
     * [_std::set_](./temario/datosstd/set.md)
-    * [_std::map_](./temario/datosstd/map.md)
   * [**Punteros**: Valor y referencia](./temario/punteros.md/)
 
 * **Entrada y salida de datos**
@@ -34,13 +33,12 @@
 
   * Funciones sin parámetros.
   * Funciones con parámetros.
-    * Parámetros simples (paso por valor * copia)
+    * Parámetros simples (paso por valor)
     * Parámetros complejos (paso por referencia)
   * Valores de retorno
-    * Retorno por valor * copia.
+    * Retorno por valor.
     * Retorno por referencia.
   * Funciones Lambda.
-  * Uso secuencial de funciones.
   * Composición de funciones.
   * Funnciones recursivas.
 

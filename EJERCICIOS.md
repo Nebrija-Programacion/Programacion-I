@@ -13,7 +13,12 @@
 11. Crear un array de números enteros (entre el 1 y el 10) e indicar cuál es el número que más veces aparece (y cuántas veces aparece).
 12. Crear un array de números enteros e indicar cuántas veces seguidas aparece como máximo el número 7. Es decir, para el array {1,2,7,7,4,3,3,7,7,7,2} el número máximo de veces seguidas que aparece el 7 es 3. Aparece 2 veces seguidas, y 3 veces seguidas, por lo que el máximo es 3.
 14. Pedir al  usuario que introduzca un texto por teclado y mostrar todas las palabras que contengan al menos una "a".
-13. A partir de un vector de números enteros, crear otro que contenga sólo los números pares. Por ejemplo, a parir de {1,3,4,5,6,7} se crea -> {4,6}.
-15. Crear una función que recorra un vector de números enteros positivos y devuelva un vector con aquellos números que sean primos.
-16. Crear una función que devuelva un vector con los _n_ primeros números primos. El número _n_ se le debe pasar a la función como parámetro.
-17. Crear una función que reciba un número entero positivo y devuelva un vector son sus factores ([ver aquí](https://matematica.fandom.com/wiki/Descomposicion_de_numeros_naturales_en_factores) que son los factores de un número natural).
+13. Usando `for elem:vec`. A partir de un vector de números enteros, crear otro que contenga sólo los números pares. Por ejemplo, a parir de {1,3,4,5,6,7} se crea -> {4,6}.
+14. Usando `while`. A partir de un vector de números enteros, crear otro que contenga sólo los números pares. Por ejemplo, a parir de {1,3,4,5,6,7} se crea -> {4,6}.
+15. Pedir un número al usuario y calcular el sumatorio desde 1 hasta dicho número.
+16. Pedir tres números al usario: _a_, _b_ y _c_. Crear un vector que contenga todos los números múltiplos de _c_ que hay entre _a_ y _b_ (incluídos).
+17. A partir de un vector de `std::string` crear otro vector que contenga sólo los elementos que aparece después del `std::string` _"guardar"_. Por ejemplo, para el vector {"perro", "gato", "guardar", "andres", "luis", "guardar", "botella"} crearía otro vector conteniendo {"andres", "botella"}.
+18. Pedir al usuario un número y mostrar por pantalla si dicho número es primo o no (usando el bucle `while`).
+19. Crear una función que recorra un vector de números enteros positivos y devuelva un vector con aquellos números que sean primos.
+20. Crear una función que devuelva un vector con los _n_ primeros números primos. El número _n_ se le debe pasar a la función como parámetro.
+21. Crear una función que reciba un número entero positivo y devuelva un vector son sus factores ([ver aquí](https://matematica.fandom.com/wiki/Descomposicion_de_numeros_naturales_en_factores) que son los factores de un número natural).

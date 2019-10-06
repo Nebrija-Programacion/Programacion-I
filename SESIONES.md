@@ -52,7 +52,19 @@
     * [_switch-case_](./temario/flujo/switch.md)
   * Bucles
     * [_while_](./temario/flujo/while.md)
-    * [_do-while_](./temario/flujo/dowhile.md)
+
+--------------------------------------------------------
+
+  * Ejercicios 13, 14, 15, 16, 17, 18 de la [colección](./EJERCICIOS.md)
+
+## Sesión 6
+
+* **[Tipos de datos de la biblioteca std](./temario/datosstd/README.md)**
+    * [_std::set_](./temario/datosstd/set.md)
+
+* **Control de flujo**
+  * Bucles
+    * [_for_](./temario/flujo/for.md)
 
 --------------------------------------------------------
 
