@@ -1,4 +1,4 @@
-# Condicionales
+# Condicionales - if else
 
 Un programa donde no hubiera control de flujo tendría esta estructura:
 <p align="center">

@@ -44,7 +44,7 @@
 
 ## Sesión 5
 
-* **[Tidos de datos de la biblioteca std](./temario/datosstd/README.md)**
+* **[Tipos de datos de la biblioteca std](./temario/datosstd/README.md)**
     * [_std::vector_](./temario/datosstd/vector.md)
 
 * **Control de flujo**
