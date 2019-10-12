@@ -90,7 +90,7 @@ int main(){
 
 ```
 
-## Funciones del tipo std::string
+## Funciones del tipo std::vector
 
 ### front y back
 Accede al primer y último elemento de un vector.
@@ -185,3 +185,7 @@ int main(){
 
 ```
 
+Al igual que los `std::string`, `std::array` y `std::set` el `std::vector` puede ser recorrido por un bucle [`for(auto elem :vector)`](../flujo/forelem.md).
+
+## Para completar
+  * [Referencia del tipo string](http://www.cplusplus.com/reference/vector/vector/)

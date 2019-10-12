@@ -80,7 +80,7 @@ int main(){
 
 ```
 
-## Funciones del tipo std::string
+## Funciones del tipo std::array
 
 ### front y back
 Accede al primer y último elemento de un array.
@@ -133,3 +133,8 @@ int main(){
   return 0;
 }
 ```
+
+Al igual que los `std::string`, `std::set` y `std::vector` el `std::array` puede ser recorrido por un bucle [`for(auto elem :arry)`](../flujo/forelem.md).
+
+## Para completar
+  * [Referencia del tipo string](http://www.cplusplus.com/reference/array/array/)

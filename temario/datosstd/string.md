@@ -352,7 +352,7 @@ int main ()
   return 0;
 }
 ```
-
+Al igual que los `std::set`, `std::array` y `std::vector` el `std::string` puede ser recorrido por un bucle [`for(auto elem :set)`](../flujo/forelem.md).
 
 ## Para completar
   * [Referencia del tipo string](http://www.cplusplus.com/reference/string/string/)
