@@ -13,29 +13,29 @@
   * [Ejercicio 1 de la colección](./EJERCICIOS.md)
 
 ## Sesión 2
-* **[Tipos de datos de la biblioteca std](./temario/datosstd/README.md)**
-    * [_std::string_](./temario/datosstd/string.md) 
+  * **[Tipos de datos de la biblioteca std](./temario/datosstd/README.md)**
+      * [_std::string_](./temario/datosstd/string.md) 
 
-* **Entrada y salida de datos**
-  * [Salida por pantalla: _std::cout_](./temario/inout/cincout.md)
-  * [Entrada por teclado: _std::cin_](./temario/inout/cincout.md)
-  
-  --------------------------------------------------------
+  * **Entrada y salida de datos**
+    * [Salida por pantalla: _std::cout_](./temario/inout/cincout.md)
+    * [Entrada por teclado: _std::cin_](./temario/inout/cincout.md)
+    
+    --------------------------------------------------------
 
-  * [Ejercicios 2 y 3 de la colección](./EJERCICIOS.md)
+    * [Ejercicios 2 y 3 de la colección](./EJERCICIOS.md)
 
 ## Sesión 3
-* [Control de flujo - Condicionales](./temario/flujo/README.md)
-  * [_if_](./temario/flujo/ifelse.md)
-  * [_if-else_](./temario/flujo/ifelse.md)
-  * [_if-else if-else_](./temario/flujo/ifelse.md)
-* [Tipos de datos de la biblioteca std](./temario/datosstd/README.md)
-  * [_std::array_](./temario/datosstd/array.md)
-* [Iterando sobre un std::array o std::string](./temario/flujo/forelem.md)
+  * [Control de flujo - Condicionales](./temario/flujo/README.md)
+    * [_if_](./temario/flujo/ifelse.md)
+    * [_if-else_](./temario/flujo/ifelse.md)
+    * [_if-else if-else_](./temario/flujo/ifelse.md)
+  * [Tipos de datos de la biblioteca std](./temario/datosstd/README.md)
+    * [_std::array_](./temario/datosstd/array.md)
+  * [Iterando sobre un std::array o std::string](./temario/flujo/forelem.md)
 
-  --------------------------------------------------------
+    --------------------------------------------------------
 
-  * [Ejercicios 4, 5 y 6 de la colección](./EJERCICIOS.md)
+    * [Ejercicios 4, 5 y 6 de la colección](./EJERCICIOS.md)
 
 ## Sesión 4
   * Sesión de repaso y refuerzo
@@ -44,14 +44,14 @@
 
 ## Sesión 5
 
-* **[Tipos de datos de la biblioteca std](./temario/datosstd/README.md)**
-    * [_std::vector_](./temario/datosstd/vector.md)
+  * **[Tipos de datos de la biblioteca std](./temario/datosstd/README.md)**
+      * [_std::vector_](./temario/datosstd/vector.md)
 
-* **Control de flujo**
-  * Condicionales
-    * [_switch-case_](./temario/flujo/switch.md)
-  * Bucles
-    * [_while_](./temario/flujo/while.md)
+  * **Control de flujo**
+    * Condicionales
+      * [_switch-case_](./temario/flujo/switch.md)
+    * Bucles
+      * [_while_](./temario/flujo/while.md)
 
 --------------------------------------------------------
 
@@ -59,13 +59,18 @@
 
 ## Sesión 6
 
-* **[Tipos de datos de la biblioteca std](./temario/datosstd/README.md)**
-    * [_std::set_](./temario/datosstd/set.md)
+  * **[Tipos de datos de la biblioteca std](./temario/datosstd/README.md)**
+      * [_std::set_](./temario/datosstd/set.md)
 
-* **Control de flujo**
-  * Bucles
-    * [_for_](./temario/flujo/for.md)
+  * **Control de flujo**
+    * Bucles
+      * [_for_](./temario/flujo/for.md)
 
 --------------------------------------------------------
 
-  * [Ejercicios xxx de la colección](./EJERCICIOS.md)
+  * [Ejercicios 19 al 27 de la colección](./EJERCICIOS.md)
+
+## Sesión 7
+
+  * Repaso y ejercicios de refuerzo
+  * Preparación para el examen parcial
