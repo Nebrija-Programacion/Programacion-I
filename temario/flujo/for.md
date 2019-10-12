@@ -4,17 +4,9 @@ Los bucles son instrucciones de control de flujo que permiten que varias sentenc
 
 En particular, el bucle `for` permite que un conjuntos de instrucciones se repitan un número determinado de veces, en función de un contador que va contando las veces que se ha repetido y una condición de finalización
 
-Aquí vemos cuál sería su diagrama de flujo:
-
-<p align="center">
-<img src="./images/for.png" alt="for"/>
-</p>
-
-Mientras la condicion de finalización es verdadera, se ejecutan las acciones _acción 1_ y _acción 2_. Cuando la condición de finalizacón es falsa el programa sigue normalmente.
-
 La sintaxis general del bucle `for` es la siguiente:
 
-```
+```cpp
 for(inicializacion contador; condicion finalizacion; incremento/decremento del contador){
   // action 1
   // action 2
@@ -23,7 +15,7 @@ for(inicializacion contador; condicion finalizacion; incremento/decremento del c
 
 Por ejemplo:
 
-```
+```cpp
 #include <iostream>
 
 int main() {
