@@ -329,4 +329,4 @@ int main(){
 Al igual que los `std::string`, `std::array` y `std::vector` el `std::set` puede ser recorrido por un bucle [`for(auto elem :set)`](../flujo/forelem.md).
 
 ## Para completar
-  * [Referencia del tipo string](http://www.cplusplus.com/reference/set/set/)
+  * [Referencia del tipo std::set](http://www.cplusplus.com/reference/set/set/)
