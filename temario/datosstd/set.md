@@ -17,7 +17,7 @@ Al declarar un *set*, si éste no es inicializado tendrá un tamaño 0.
 
 ## Inicialización de un std::set
 
-Un `std::vector` no inicializado tendrá tamaño 0, es decir, el siguiente código
+Un `std::set` no inicializado tendrá tamaño 0, es decir, el siguiente código
 
 ```cpp
 #include <set>
@@ -46,6 +46,14 @@ También se puede inicializar con el operaodr `=` (aunque se recomienda hacerlo 
 
 std::set<std::string> mySet = {"Pedro", "Luis", "Maria", "Laura"};
 ```
+
+Es importante destacar, que el orden de los elementos en un `std::set` no tienen por qué coincidir con el orden en el que fueron incializados, ya que internamente éstos se ordenarán de menor mayor.
+
+Es decir, este código
+ ```
+std::set<int> mySet{2,3,1,4};
+```
+Dará lugar a un conjunto con un orden interno `{1,2,3,4}`
 
 ## Lectura y asignación de los elementos de un std::vector
 
@@ -321,4 +329,4 @@ int main(){
 Al igual que los `std::string`, `std::array` y `std::vector` el `std::set` puede ser recorrido por un bucle [`for(auto elem :set)`](../flujo/forelem.md).
 
 ## Para completar
-  * [Referencia del tipo string](http://www.cplusplus.com/reference/set/set/)
+  * [Referencia del tipo std::set](http://www.cplusplus.com/reference/set/set/)
