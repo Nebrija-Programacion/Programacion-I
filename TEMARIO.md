@@ -31,14 +31,14 @@
       * [std::transform](./temario/flujo/transform.md)
 * **Funciones**
 
-  * Funciones sin parámetros.
-  * Funciones con parámetros.
+  * [Funciones sin parámetros](./temario/funciones/sinparams.md)
+  * [Funciones con parámetros](./temario/funciones/conparams.md)
     * Parámetros simples (paso por valor)
     * Parámetros complejos (paso por referencia)
   * Valores de retorno
     * Retorno por valor.
     * Retorno por referencia.
-  * Funciones Lambda.
+  * [Funciones Lambda](./temario/funciones/lambda.md)
   * Composición de funciones.
   * Funnciones recursivas.
 

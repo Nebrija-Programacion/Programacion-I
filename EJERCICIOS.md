@@ -26,6 +26,8 @@
 25. Realizar un programa que pida al usuario un número y muestre por pantalla si el número es primo o no.
 26. A partir de un array de 100 números enteros aleatorios entre 0 y 20 (ver [cómo generar números aleatorios](http://www.cplusplus.com/reference/cstdlib/rand/)), guardar en el tipo de dato pertinente todos aquellos que sean múltiplos de 3 y posteriormente imprimirlos por pantalla (no se debe repetir ninguno).
 27. A partir de un array de 20 numeros enteros aleatorios entre 0 y 100, imprimirlos por pantalla de modo ordenado y sin que se repitan.
-28. Crear una función que recorra un vector de números enteros positivos y devuelva un vector con aquellos números que sean primos.
-29. Crear una función que devuelva un vector con los _n_ primeros números primos. El número _n_ se le debe pasar a la función como parámetro.
-30. Crear una función que reciba un número entero positivo y devuelva un vector son sus factores ([ver aquí](https://matematica.fandom.com/wiki/Descomposicion_de_numeros_naturales_en_factores) que son los factores de un número natural).
+28. Crear una función que reciba como parámetro una frase y devuelva un vector que contenga cada palabra por separado.
+29. Crear una función que reciba como parámetros una frase y un caracter "separado" y devuelva un vector con cada uno de los elemtos separados. Por ejemplo, si le pasamos la frase `"www.nebrija.es"` y como elemento separado el caracter `'.'`, devolverá el vector `{"www", "nebrija", "es"}`. 
+30. Crear una función que recorra un vector de números enteros positivos y devuelva un vector con aquellos números que sean primos. Para ello se creará previamente una función que diga si un número es primo o no.
+31. Crear una función que devuelva un vector con los _n_ primeros números primos. El número _n_ se le debe pasar a la función como parámetro.
+32. Crear una función que reciba un número entero positivo y devuelva un vector son sus factores ([ver aquí](https://matematica.fandom.com/wiki/Descomposicion_de_numeros_naturales_en_factores) que son los factores de un número natural).

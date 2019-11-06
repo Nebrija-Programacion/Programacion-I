@@ -74,3 +74,16 @@
 
   * Repaso y ejercicios de refuerzo
   * Preparación para el examen parcial
+
+## Sesión 8
+
+  * [Examen Parcial](examenes/1920/parcial/ExamenParcial_31_10_2019.pdf)
+
+## Sesión 9
+  * Funciones
+    * [Funciones sin parámetros](temario/funciones/sinparams.md)
+    * [Funciones con parámetros](temario/funciones/conparams.md)
+
+  --------------------------------------------------------
+
+  * [Ejercicios 28 al 32 de la colección](./EJERCICIOS.md)
