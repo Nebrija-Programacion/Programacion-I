@@ -80,10 +80,31 @@
   * [Examen Parcial](examenes/1920/parcial/ExamenParcial_31_10_2019.pdf)
 
 ## Sesión 9
-  * Funciones
+  * [Funciones](temario/funciones/README.md)
     * [Funciones sin parámetros](temario/funciones/sinparams.md)
     * [Funciones con parámetros](temario/funciones/conparams.md)
 
   --------------------------------------------------------
 
   * [Ejercicios 28 al 32 de la colección](./EJERCICIOS.md)
+
+## Sesión 10
+  * Refuerzo y repaso de funciones
+
+## Sesión 11
+  * Funciones Lambda 
+  * Composición de funciones.
+
+## Sesión 12
+  * Refuerzo y repaso de funiones.
+  * Punteros
+
+## Sesión 13
+  * Ejemplo de una lista enlazada con `Struct` y punteros.
+
+## Sesión 14
+* **Iniciación a la Programación Orientada a Objetos**
+  * Clases
+  * Variables miembro.
+  * Métodos de una clase (funciones miembro).
+  * Constructor

@@ -99,3 +99,76 @@ int main() {
 }
 ```
 
+## Trabajando correctamente con funciones
+
+Las funciones permiten hacer algunas cosas que sin embargo no son recomendables. Dos reglas de oro que se deberían seguir a rajatabla son:
+  * Una función nunca debería acceder a variables que esté fuera de su ámbito.
+  * Una función nunca debería modificar una variable que esté fuera de su ámbito.
+
+### Ambito de las funciones
+El ámbito de una función está formado, explicado de un modo _vulgar_, por las variables e instrucciones que se declaran o ejecutan dentro de la propia función. Es decir, todo lo que está entre llaves.
+
+El siguiente ejemplo:
+
+```cpp
+#include <iostream>
+
+std::string nombre;
+
+void saludar(){
+  std::cout << "Hola " << nombre << "\n";
+}
+
+int main() {
+  std::cout << "Introduce tu nombre:\n";
+  std::cin >> nombre;
+  saludar();
+  return 0;
+}
+``` 
+compila y ejecuta correctamente, sin embargo se está saltando la regla del ámbito, ¿por qué? la variable `nombre` no pertenece al ámbito de la función `saludar` (porque está declarada fuera de la función) por lo que **jamás debería acceder a ella**. ¿Cuál sería un modo correcto de hacer este programa?
+
+```cpp
+#include <iostream>
+
+void saludar(){
+  std::string nombre;
+  std::cout << "Introduce tu nombre:\n";
+  std::cin >> nombre;
+  std::cout << "Hola " << nombre << "\n";
+}
+
+int main() {  
+  saludar();
+  return 0;
+}
+```
+En este último programa, la función `saludar` sólo utiliza variables declaradas dentro de su ámbigo (llamadas _variables locales_).
+
+
+### Efectos colaterales de las funciones
+Un efecto colateral es cuando una función modifica variables de un programa que no pertenecen a la función, es decir, que _no son de su ámbito_ (ya sea de modo intencionado o accidental).
+
+Por ejemplo, el siguiente programa:
+
+```cpp
+#include <iostream>
+
+int numero;
+
+void multiplicaPorDos(){
+  numero =  numero * 2;
+}
+
+int main() {  
+  std::cout << "Introduce un numero: ";
+  std::cin >> numero;
+  multiplicaPorDos();
+  std::cout << "El número multiplicado por 2 es " << numero << "\n";
+  return 0;
+}
+```
+Compila y funciona correctamente, sin embargo **nunca se debería programar así** ya que la función `multiplicaPorDos()` modifica una variable que no pertenece a su ámbito: `numero`.
+
+Pero entonces, ¿cómo puede una función acceder a variables del programa para poder trabajar con ellas?, a través de los [parámetros](./conparams.md).
+
