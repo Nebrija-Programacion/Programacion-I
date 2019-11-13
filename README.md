@@ -25,18 +25,22 @@
 
 # 6. Colección de ejercicios
 
-[Colección de ejercicios (sin corrección)](./EJERCICIOS.md)
+[Colección de ejercicios (sin solución)](./EJERCICIOS.md)
 
-# 7. Prácticas cursos pasados (enunciados y soluciones)
+# 7. Ejemplos de posibles exámenes
+
+[Colección de exámenes tipo (con solución)](./EXAMENESTIPO.md)
+
+# 8. Prácticas cursos pasados (enunciados y soluciones)
 
 * [Curso 2018/19](./practicas/1819)
 
-# 8. Exámenes cursos pasados (enunciados y soluciones)
+# 9. Exámenes cursos pasados (enunciados y soluciones)
 
 * [Curso 2018/19](./examenes/1819)
   * [Parcial](./examenes/1819/Parcial1)
   * [Final Ordinaria](./examenes/1819/ordinaria)
   * [Final Extraordinaria](./examenes/1819/extraordinaria)
 
-# 9. Recursos de otras universidades.
+# 10. Recursos de otras universidades.
   * [Universidad de Granada. Fundamentos de Programación](https://github.com/DEIIT/Ingenieria-Informatica/tree/master/1%C2%BA%201er%20cuatrimestre/Fundamentos%20de%20programaci%C3%B3n)
