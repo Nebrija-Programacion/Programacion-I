@@ -3,7 +3,7 @@
 **Tiempo estimado:** 30 minutos.
 
 
-Se desea realizar un programa estadístico, para ello el programa debe realiar los siguientes pasos.
+Se desea realizar un programa estadístico, para ello el programa debe realizar los siguientes pasos.
 
  1. Se desean generar n número aleatorios, para ello preguntar al usuario:
     1. ¿Cuántos números aleatorios se desean generar?
