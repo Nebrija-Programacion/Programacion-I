@@ -1,6 +1,6 @@
 **Dificultad:** Muy fácil.\
 **Contenidos tratados:** Funciones, vectores.\
-**Tiempo estimado:** 30 minutos.\
+**Tiempo estimado:** 30 minutos.
 
 
 Se desea realizar un programa estadístico, para ello el programa debe realiar los siguientes pasos.
