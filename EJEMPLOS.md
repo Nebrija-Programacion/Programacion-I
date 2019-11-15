@@ -36,9 +36,6 @@
     * [Función que devuelve si un número es primo](https://github.com/Nebrija*Programacion/Programacion*I/tree/master/ejemplos/funciones/parametros/porcopia/esprimo)
   * Parámetros complejos (paso por referencia)
 * Valores de retorno
-  * Retorno por valor - copia.
-  * Retorno por referencia.
-    * [Realizar una función que devuelve el módulo y ángulo con el eje X de un vector de dos coordenadas que recibe por parámetro](https://github.com/Nebrija*Programacion/Programacion*I/tree/master/ejemplos/funciones/parametros/porreferencia/moduloyangulo)
   * Funciones iterativas.
     * [Calcular el factorial de un número de modo iterativo](https://github.com/Nebrija*Programacion/Programacion*I/tree/master/ejemplos/funciones/iterativo/factorial).
     * [Almacenar en un vector los n primeros números de la serie de Fibonacci de modo iterativo](https://github.com/Nebrija*Programacion/Programacion*I/tree/master/ejemplos/funciones/iterativo/fibonacci)

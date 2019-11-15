@@ -23,7 +23,6 @@
 #include <functional>
 using namespace std;
 
-
 /**
  * FIRST ORDER FUNCTION
  * @brief returns if a vector contains an element
@@ -31,9 +30,12 @@ using namespace std;
  * @param fp: The function that matches the condition (returning boolean)
  * @return true if the element is found
  */
-int contains(vector<int> const & v, std::function<bool(int)> fp){
-    for(auto elem: v){
-        if(fp(elem)) return true;
+int contains(vector<int> const &v, std::function<bool(int)> fp)
+{
+    for (auto elem : v)
+    {
+        if (fp(elem))
+            return true;
     }
 
     return false;
@@ -41,22 +43,27 @@ int contains(vector<int> const & v, std::function<bool(int)> fp){
 
 int main()
 {
-    vector<int> myVector{{1,21,13,42,15}};
+    vector<int> myVector{{1, 21, 13, 42, 15}};
 
     // look for number 21
-    if(contains(myVector, [](int a){ return a == 21; })){
+    if (contains(myVector, [](int a) { return a == 21; }))
+    {
         cout << "21 found!" << endl;
-    }else{
+    }
+    else
+    {
         cout << "21 not found" << endl;
     }
 
     // look for number 3
-    if(contains(myVector, [](int a){ return a == 3; })){
+    if (contains(myVector, [](int a) { return a == 3; }))
+    {
         cout << "3 Found!" << endl;
-    }else{
+    }
+    else
+    {
         cout << "3 not found" << endl;
     }
-
 
     cout << "End!" << endl;
 

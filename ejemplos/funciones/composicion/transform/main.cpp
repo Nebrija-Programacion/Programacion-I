@@ -29,17 +29,17 @@
 
 #include <iostream>
 #include <array>
+#include <functional>
+
 using namespace std;
 
+std::function<int(int)> makeDobule = [](int x) {
+    return 2 * x;
+};
 
-
-int makeDobule(int x){
-    return 2*x;
-}
-
-int makeTriple(int x){
-    return 3*x;
-}
+std::function<int(int)> makeTriple = [](int x) {
+    return 3 * x;
+};
 
 /**
  * FIRST ORDER FUNCTION
@@ -48,16 +48,20 @@ int makeTriple(int x){
  * @param fp: The function that modifies the elements (returning modified value - int )
  * @return the reference to the modified vector
  */
-array<int,5> & transform(array<int,5> & v, int (*fp)(int)){
-    for(auto& elem: v){
+array<int, 5> &transform(array<int, 5> &v, std::function<int(int)> const &fp)
+{
+    for (auto &elem : v)
+    {
         elem = fp(elem);
     }
     return v;
 }
 
-void print(array<int,5> const & v){
+void print(array<int, 5> const &v)
+{
 
-    for(auto elem: v){
+    for (auto elem : v)
+    {
         cout << elem << " - ";
     }
     cout << endl;
@@ -65,17 +69,17 @@ void print(array<int,5> const & v){
 
 int main()
 {
-    array<int,5> myArray{{1,2,3,4,5}};
+    array<int, 5> myArray{{1, 2, 3, 4, 5}};
 
     cout << "Original array: " << endl;
     print(myArray);
 
     cout << "Transform (makeDouble): " << endl;
-    myArray = transform(myArray, &makeDobule);
+    myArray = transform(myArray, makeDobule);
     print(myArray);
 
     cout << "Transform again (makeTriple): " << endl;
-    myArray = transform(myArray, &makeTriple);
+    myArray = transform(myArray, makeTriple);
     print(myArray);
 
     cout << "End!" << endl;

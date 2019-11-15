@@ -32,15 +32,13 @@
 #include <functional>
 using namespace std;
 
-
-bool isEven(int x){
+std::function<bool(int)> isEven = [](int x) {
     return (x % 2 == 0);
-}
+};
 
-bool isGreaterThanTen(int x){
+std::function<bool(int)> isGreaterThanTen = [](int x) {
     return (x > 10);
-}
-
+};
 
 /**
  * FIRST ORDER FUNCTION
@@ -49,36 +47,41 @@ bool isGreaterThanTen(int x){
  * @param fp: The function that filters de elements (returning boolean)
  * @return Filtered vector.
  */
-vector<int> filter(vector<int> const & v, std::function<bool(int)>fp){
+vector<int> filter(vector<int> const &v, std::function<bool(int)> const &fp)
+{
     vector<int> retVector;
-    for(auto elem: v){
-        if(fp(elem)) retVector.push_back(elem);
+    for (auto elem : v)
+    {
+        if (fp(elem))
+            retVector.push_back(elem);
     }
 
     return retVector;
 }
 
-void print(vector<int> const & v){
+void print(vector<int> const &v)
+{
 
-    for(auto elem: v){
+    for (auto elem : v)
+    {
         cout << elem << " - ";
     }
-    cout << endl;
+    cout << "\n";
 }
 
 int main()
 {
-    vector<int> myVector{{1,20,31,42,51}};
+    vector<int> myVector{{1, 20, 31, 42, 51}};
 
-    cout << "Original vector: " << endl;
+    cout << "Original vector:\n ";
     print(myVector);
 
-    cout << "Filtered vector (isEven): " << endl;
-    vector<int> onlyEvenElements = filter(myVector, &isEven);
+    cout << "Filtered vector (isEven):\n ";
+    vector<int> onlyEvenElements = filter(myVector, isEven);
     print(onlyEvenElements);
 
-    cout << "Filtered vector (greaterThanTen)" << endl;
-    vector<int> greaterThanTenVector = filter(myVector, &isGreaterThanTen);
+    cout << "Filtered vector (greaterThanTen)\n";
+    vector<int> greaterThanTenVector = filter(myVector, isGreaterThanTen);
     print(greaterThanTenVector);
 
     cout << "End!" << endl;
