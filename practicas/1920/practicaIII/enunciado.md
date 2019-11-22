@@ -2,7 +2,7 @@
 
 En esta práctica se ejercitará la programación con funciones tradicionales y funciones lambda. Todos los ejercicios se ejecutarán sobre el siguiente vector `{1,3,4,13,4,6,12,7,18}`
 
-## Ejercicio 1 (3 puntos)
+## Ejercicio 1 (2 puntos)
 
 ### Parte 1
 Realizar una función tradicional que muestre por pantalla todos los elementos del vector.
