@@ -28,9 +28,9 @@ Realizar una función tradicional que reciba el vector de elementos y devuelva u
  * el vector
  * una función lambda que realice una comprobación (devolviendo verdadero o falso) sobre cada uno de los elementos del vector.
 
-2. Realizar una función lambda `isOdd` que dice si un número entero es par.
+2. Realizar una función lambda `isEven` que dice si un número entero es par.
 
-`isOdd(5) --> false`
+`isEven(5) --> false`
 
 La llamada a `filter(miVector, isOdd)` debe devolver un vector con los números pares.
 
