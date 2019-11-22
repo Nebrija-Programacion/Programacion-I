@@ -32,7 +32,7 @@ Realizar una función tradicional que reciba el vector de elementos y devuelva u
 
 `isEven(5) --> false`
 
-La llamada a `filter(miVector, isOdd)` debe devolver un vector con los números pares.
+La llamada a `filter(miVector, isEven)` debe devolver un vector con los números pares.
 
 3. Mostrar por pantalla el resultado usando `forEach(vectorFiltrado, print)`
 
