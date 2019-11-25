@@ -25,7 +25,8 @@
 
 # 6. Colección de ejercicios
 
-[Colección de ejercicios (sin solución)](./EJERCICIOS.md)
+[Colección de ejercicios (sin solución) I](./EJERCICIOS.md)
+[Colección de ejercicios (sin solución) II](./EJERCICIOS2.md)
 
 # 7. Ejemplos de posibles exámenes
 
