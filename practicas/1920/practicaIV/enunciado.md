@@ -1,6 +1,6 @@
 # Práctica IV
 
-En esta práctica se ejercitará la programación con funciones lambda de una lista enlazada doble (cada elemento está enlazado con el siguiente)
+En esta práctica se ejercitará la programación con funciones lambda de una lista enlazada doble (cada elemento está enlazado con el siguiente y con el anterior)
 
 ## Ejercicio 1 (2.5 puntos)
 
