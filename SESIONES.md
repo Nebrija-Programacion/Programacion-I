@@ -92,19 +92,15 @@
   * Refuerzo y repaso de funciones
 
 ## Sesión 11
-  * Funciones Lambda 
-  * Composición de funciones.
+  * [Funciones Lambda](./temario/funciones/lambda.md)
+  * [Composición de funciones](./temario/funciones/lambda.md)
 
 ## Sesión 12
   * Refuerzo y repaso de funiones.
-  * Punteros
+  * [Punteros clásicos](./temario/variables/punteros.md)
 
 ## Sesión 13
-  * Ejemplo de una lista enlazada con `Struct` y punteros.
+  * Ejemplo de una lista enlazada simple con `Struct` y punteros.
 
 ## Sesión 14
-* **Iniciación a la Programación Orientada a Objetos**
-  * Clases
-  * Variables miembro.
-  * Métodos de una clase (funciones miembro).
-  * Constructor
+* Refuerzo Punteros

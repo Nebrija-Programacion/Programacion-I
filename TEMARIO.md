@@ -35,8 +35,7 @@
     * [Parámetros simples (paso por valor)](./temario/funciones/conparams.md)
     * [Parámetros complejos (paso por referencia)](./temario/funciones/conparams.md)
   * [Funciones Lambda](./temario/funciones/lambda.md)
-  * Composición de funciones.
-  * Funciones recursivas.
+  * [Composición de funciones](./temario/funciones/lambda.md)
 
 * **Iniciación a la Programación Orientada a Objetos**
   * Clases
