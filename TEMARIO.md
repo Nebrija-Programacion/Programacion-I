@@ -9,7 +9,8 @@
     * [_std::array_](./temario/datosstd/array.md)
     * [_std::vector_](./temario/datosstd/vector.md)
     * [_std::set_](./temario/datosstd/set.md)
-  * **Punteros**: Valor y referencia
+  * **Punteros**:
+    * [Punteros clásicos](./temario/variables/punteros.md)
 
 * **Entrada y salida de datos**
   * [Salida por pantalla: _std::cout_](./temario/inout/cincout.md)
