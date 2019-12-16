@@ -158,3 +158,193 @@ En este caso, lo correcto sería:
 }
 ```
 (aunque este programa realmente no sirve para nada)
+
+## Ejemplo de un vector de punteros
+
+Imaginemos que tenemos una estrucutura en la que almacenamos la información de una persona 
+
+```cpp
+struct Person{
+  std::string name;
+  int age;
+};
+```
+y queremos tener un vector de punteros a dicha estrcutra
+
+```cpp
+std::vector<Person*> personas;
+```
+
+Ojo, `personas` no es un puntero, sino un vector de punteros.
+
+¿Cómo se podría rellenar el vector?
+
+```cpp
+#include <iostream>
+#include <vector>
+
+struct Person{
+  std::string name;
+  int age;
+};
+
+int main() {
+
+  std::vector<Person*> people;
+  char input{'a'};
+  while(input != 'x'){
+    std::cout<< "Introduce nombre: ";
+    std::string name; std::cin >> name;
+    std::cout << "Introduce edad: ";
+    int age; std::cin >> age;
+    Person* p = new Person;
+    p->name = name;
+    p->age = age;
+    people.push_back(p);
+    std::cout << "Introduce x para salir, otra tecla para continuar\n";
+    std::cin >> input;
+  }
+  
+}
+```
+
+Luego podríamos realizar una función `print` para mostrar por pantalla todos los valores.
+
+```cpp
+#include <iostream>
+#include <vector>
+
+struct Person{
+  std::string name;
+  int age;
+};
+
+void print(std::vector<Person*> list){
+  for (auto p: list){
+    std::cout << "nombre: " << p->name <<"\n";
+    std::cout << "edad: " << p->age <<"\n";
+  }
+}
+
+int main() {
+
+  std::vector<Person*> people;
+  char input{'a'};
+  while(input != 'x'){
+    std::cout<< "Introduce nombre: ";
+    std::string name; std::cin >> name;
+    std::cout << "Introduce edad: ";
+    int age; std::cin >> age;
+    Person* p = new Person;
+    p->name = name;
+    p->age = age;
+    people.push_back(p);
+    std::cout << "Introduce x para salir, otra tecla para continuar\n";
+    std::cin >> input;
+  }
+
+  print(people);
+  
+}
+```
+Y finalmente, deberíamos borrar toda la memoria que hemos reservado:
+
+```cpp
+#include <iostream>
+#include <vector>
+
+struct Person{
+  std::string name;
+  int age;
+};
+
+void print(std::vector<Person*> list){
+  for (auto p: list){
+    std::cout << "nombre: " << p->name <<"\n";
+    std::cout << "edad: " << p->age <<"\n";
+  }
+}
+
+void clearMemory(std::vector<Person*> list){
+  for (auto p: list){
+    delete p; 
+    p = nullptr;
+  }
+  list.resize(0);
+}
+
+int main() {
+
+  std::vector<Person*> people;
+  char input{'a'};
+  while(input != 'x'){
+    std::cout<< "Introduce nombre: ";
+    std::string name; std::cin >> name;
+    std::cout << "Introduce edad: ";
+    int age; std::cin >> age;
+    Person* p = new Person;
+    p->name = name;
+    p->age = age;
+    people.push_back(p);
+    std::cout << "Introduce x para salir, otra tecla para continuar\n";
+    std::cin >> input;
+  }
+
+  print(people);
+  clearMemory(people);
+  
+}
+``` 
+
+También se podría haber hecho utilizando programación funcional
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <functional>
+
+struct Person{
+  std::string name;
+  int age;
+};
+
+
+void forEach(std::vector<Person*> list, std::function<void (Person*)> op){
+  for (auto p: list){
+    op(p);
+  }
+}
+
+int main() {
+
+  std::vector<Person*> people;
+  char input{'a'};
+  while(input != 'x'){
+    std::cout<< "Introduce nombre: ";
+    std::string name; std::cin >> name;
+    std::cout << "Introduce edad: ";
+    int age; std::cin >> age;
+    Person* p = new Person;
+    p->name = name;
+    p->age = age;
+    people.push_back(p);
+    std::cout << "Introduce x para salir, otra tecla para continuar\n";
+    std::cin >> input;
+  }
+
+  // print
+  forEach(people, [](Person* p)->void{
+    std::cout << "Nombre: " << p->name << "\n";
+    std::cout << "Nombre: " << p->age << "\n";
+  });
+
+  // clear memory
+  forEach(people, [](Person* p)->void{
+    delete p;
+    p = nullptr;
+  });
+
+  people.resize(0);
+  
+}
+``` 
