@@ -1,4 +1,4 @@
-# Temario
+# Temario - Programación I
 
 * [Hola Mundo](./temario/holamundo/README.md)
 * [Variables](./temario/variables/README.md)
@@ -11,6 +11,7 @@
     * [_std::set_](./temario/datosstd/set.md)
   * **Punteros**:
     * [Punteros clásicos](./temario/variables/punteros.md)
+    * Punteros inteligentes.
 
 * **Entrada y salida de datos**
   * [Salida por pantalla: _std::cout_](./temario/inout/cincout.md)
@@ -36,10 +37,3 @@
     * [Parámetros complejos (paso por referencia)](./temario/funciones/conparams.md)
   * [Funciones Lambda](./temario/funciones/lambda.md)
   * [Composición de funciones](./temario/funciones/lambda.md)
-
-* **Iniciación a la Programación Orientada a Objetos**
-  * Clases
-  * Variables miembro.
-  * Métodos de una clase (funciones miembro).
-  * Constructor.
-  * Miembros públicos, protegidos y privados.

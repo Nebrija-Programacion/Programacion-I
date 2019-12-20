@@ -1,4 +1,4 @@
-# Trabajo IV - Programación I - Puntuación posible 7 puntos
+# Trabajo IV - Programación I - Puntuación posible 10 puntos
 
 ## Ruleta
 
