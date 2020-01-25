@@ -8,12 +8,13 @@
 
 * [Práctica I](./practicas/1920/practicaI)
 * [Práctica II](./practicas/1920/practicaII)
-* Práctica III
-* Práctica IV
+* [Práctica III](./practicas/1920/practicaIII)
+* [Práctica IV](./practicas/1920/practicaIV)
 * Práctica V
 
 # 3. Exámenes
  * [Examen Parcial](./examenes/1920/parcial)
+ * [Examen Ordinaria](./examenes/1920/ordinaria)
 
 # 4. Temario
 
