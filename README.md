@@ -6,15 +6,14 @@
 
 # 2. Prácticas
 
-* [Práctica I](./practicas/1920/practicaI)
-* [Práctica II](./practicas/1920/practicaII)
-* [Práctica III](./practicas/1920/practicaIII)
-* [Práctica IV](./practicas/1920/practicaIV)
-* Práctica V
+* [Práctica I]
+* [Práctica II]
+* [Práctica III]
+* [Práctica IV]
+* [Práctica V]
 
 # 3. Exámenes
- * [Examen Parcial](./examenes/1920/parcial)
- * [Examen Ordinaria](./examenes/1920/ordinaria)
+
 
 # 4. Temario
 
@@ -29,20 +28,18 @@
 [Colección de ejercicios (sin solución) I](./EJERCICIOS.md)
 [Colección de ejercicios (sin solución) II](./EJERCICIOS2.md)
 
-# 7. Ejemplos de posibles exámenes
-
-[Colección de exámenes tipo (con solución)](./EXAMENESTIPO.md)
-
-# 8. Prácticas cursos pasados (enunciados y soluciones)
+# 7. Prácticas cursos pasados
 
 * [Curso 2018/19](./practicas/1819)
+* [Curso 2019/20](./practicas/1920)
 
-# 9. Exámenes cursos pasados (enunciados y soluciones)
+# 8. Exámenes cursos pasados
 
 * [Curso 2018/19](./examenes/1819)
   * [Parcial](./examenes/1819/Parcial1)
   * [Final Ordinaria](./examenes/1819/ordinaria)
   * [Final Extraordinaria](./examenes/1819/extraordinaria)
+* [Curso 2019/20](./examenes/1920)
+  * [Examen Parcial](./examenes/1920/parcial)
+  * [Examen Ordinaria](./examenes/1920/ordinaria)
 
-# 10. Recursos de otras universidades.
-  * [Universidad de Granada. Fundamentos de Programación](https://github.com/DEIIT/Ingenieria-Informatica/tree/master/1%C2%BA%201er%20cuatrimestre/Fundamentos%20de%20programaci%C3%B3n)

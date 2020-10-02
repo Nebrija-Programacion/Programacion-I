@@ -6,13 +6,7 @@
   * [Variables](./temario/variables/README.md)
     * [Tipos simples](./temario/variables/tipossimples.md)
     * [Estructuras](./temario/variables/estructuras.md)
-  
-  -------------------------------------------------------
 
-  * [Presentacion](./presentaciones/Sesion1.pdf)
-  * [Ejercicio 1 de la colección](./EJERCICIOS.md)
-
-## Sesión 2
   * **[Tipos de datos de la biblioteca std](./temario/datosstd/README.md)**
       * [_std::string_](./temario/datosstd/string.md) 
 
@@ -22,9 +16,9 @@
     
     --------------------------------------------------------
 
-    * [Ejercicios 2 y 3 de la colección](./EJERCICIOS.md)
+    * [Ejercicios 1, 2 y 3 de la colección](./EJERCICIOS.md)
 
-## Sesión 3
+## Sesión 2
   * [Control de flujo - Condicionales](./temario/flujo/README.md)
     * [_if_](./temario/flujo/ifelse.md)
     * [_if-else_](./temario/flujo/ifelse.md)
@@ -37,12 +31,12 @@
 
     * [Ejercicios 4, 5 y 6 de la colección](./EJERCICIOS.md)
 
-## Sesión 4
+## Sesión 3
   * Sesión de repaso y refuerzo
   * Ejercicios 7, 8, 9 y 10, 11 y 12 de la [colección](./EJERCICIOS.md)
 
 
-## Sesión 5
+## Sesión 4
 
   * **[Tipos de datos de la biblioteca std](./temario/datosstd/README.md)**
       * [_std::vector_](./temario/datosstd/vector.md)
@@ -57,7 +51,7 @@
 
   * Ejercicios 13, 14, 15, 16, 17, 18 de la [colección](./EJERCICIOS.md)
 
-## Sesión 6
+## Sesión 5
 
   * **[Tipos de datos de la biblioteca std](./temario/datosstd/README.md)**
       * [_std::set_](./temario/datosstd/set.md)
@@ -70,16 +64,16 @@
 
   * [Ejercicios 19 al 27 de la colección](./EJERCICIOS.md)
 
-## Sesión 7
+## Sesión 6
 
   * Repaso y ejercicios de refuerzo
   * Preparación para el examen parcial
 
-## Sesión 8
+## Sesión 7
 
   * [Examen Parcial](examenes/1920/parcial/ExamenParcial_31_10_2019.pdf)
 
-## Sesión 9
+## Sesión 8
   * [Funciones](temario/funciones/README.md)
     * [Funciones sin parámetros](temario/funciones/sinparams.md)
     * [Funciones con parámetros](temario/funciones/conparams.md)
@@ -88,19 +82,19 @@
 
   * [Ejercicios 28 al 32 de la colección](./EJERCICIOS.md)
 
-## Sesión 10
+## Sesión 9
   * Refuerzo y repaso de funciones
 
-## Sesión 11
+## Sesión 10
   * [Funciones Lambda](./temario/funciones/lambda.md)
   * [Composición de funciones](./temario/funciones/lambda.md)
 
-## Sesión 12
+## Sesión 11
   * Refuerzo y repaso de funiones.
   * [Punteros clásicos](./temario/variables/punteros.md)
 
-## Sesión 13
+## Sesión 12
   * Ejemplo de una lista enlazada simple con `Struct` y punteros.
 
-## Sesión 14
+## Sesión 13
 * Refuerzo Punteros
