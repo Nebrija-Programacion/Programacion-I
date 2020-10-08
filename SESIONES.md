@@ -16,7 +16,7 @@
     
     --------------------------------------------------------
 
-    * [Ejercicios 1, 2 y 3 de la colección](./EJERCICIOS.md)
+    * [Ejercicios 2 y 3 de la colección](./EJERCICIOS.md)
 
 ## Sesión 2
   * [Control de flujo - Condicionales](./temario/flujo/README.md)
