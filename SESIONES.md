@@ -32,7 +32,6 @@
     * [Ejercicios 4, 5 y 6 de la colección](./EJERCICIOS.md)
 
 ## Sesión 3
-  * Sesión de repaso y refuerzo
   * Ejercicios 7, 8, 9 y 10, 11 y 12 de la [colección](./EJERCICIOS.md)
 
   * **[Tipos de datos de la biblioteca std](./temario/datosstd/README.md)**
