@@ -48,6 +48,10 @@
   * Ejercicios 13, 14, 15, 16, 17, 18 de la [colección](./EJERCICIOS.md)
 
 ## Sesión 4
+ * [Corrección Práctica I](./practicas/2021/PracticaI)
+ * Repaso y refuerzo de lo visto hasta la fecha.
+
+## Sesión 5
 
   * **[Tipos de datos de la biblioteca std](./temario/datosstd/README.md)**
       * [_std::set_](./temario/datosstd/set.md)
@@ -60,19 +64,16 @@
 
   * [Ejercicios 19 al 27 de la colección](./EJERCICIOS.md)
 
-## Sesión 5
-
-  * Repaso y ejercicios de refuerzo
-  * Preparación para el examen parcial
-
 ## Sesión 6
 
-  * [Examen Parcial](examenes/1920/parcial/ExamenParcial_31_10_2019.pdf)
-
-## Sesión 7
   * [Funciones](temario/funciones/README.md)
     * [Funciones sin parámetros](temario/funciones/sinparams.md)
     * [Funciones con parámetros](temario/funciones/conparams.md)
+
+## Sesión 7
+
+  * [Examen Parcial](examenes/1920/parcial/ExamenParcial_31_10_2019.pdf)
+
 
   --------------------------------------------------------
 
