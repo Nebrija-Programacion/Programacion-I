@@ -21,7 +21,7 @@ Partimos del siguiente programa en pseudocódigo, que muestra los 10 primeros n�
 
 Este es el código, ahora lo analizaremos
 
-``` cpp {.line-numbers}
+```cpp {.line-numbers}
 #include <iostream>
 
 int main(){
