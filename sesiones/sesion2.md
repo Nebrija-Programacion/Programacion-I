@@ -134,7 +134,7 @@ int main(){
 
 ## Ejercicios para prácticar
 
-* Escribir en lenguaje C++ los [ejemplos de pseudocódigo](../ejemplos/pseudocodigo.md)
+* Escribir en lenguaje C++ los [ejemplos de pseudocódigo](../ejemplos/pseudocodigo.md) - [Solución](../ejemplos/cppbasico.md)
 * [Ejercicios 7 - 12](../EJERCICIOS.md)
 
   
