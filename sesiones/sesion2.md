@@ -18,11 +18,10 @@ Partimos del siguiente programa en pseudocódigo, que muestra los 10 primeros n�
 11      CONT = CONT + 1
 ``` 
 
-Un programa en C++ lo primero que hace es importar las bibliotecas que va a necesitar. Las bibliotecas serían aquellas herramientas que necesita para realizar la tarea, y que no son parte del lenguaje en sí, por eso deben ser importadas. En este caso, la única biblioteca necesaria es la que permite mostrar texto por pantalla. Es la biblioteca `iostream`.
 
-Este es el código, ahora no analizaremos
+Este es el código, ahora lo analizaremos
 
-``` 
+``` cpp {.line-numbers}
 #include <iostream>
 
 int main(){
@@ -40,3 +39,5 @@ int main(){
   }
 }
 ```
+
+Un programa en C++ lo primero que hace es importar las bibliotecas que va a necesitar. Las bibliotecas serían aquellas herramientas que necesita para realizar la tarea, y que no son parte del lenguaje en sí, por eso deben ser importadas. En este caso, la única biblioteca necesaria es la que permite mostrar texto por pantalla. Es la biblioteca `iostream`.
