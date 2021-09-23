@@ -1,4 +1,4 @@
-## Ejemplos Pseudocódigo (con solución)
+## Ejemplos código básico (con solución)
 ### 1. Escribir en C++ el siguiente programa en pseudocódigo
 ``` 
 CONT = 1
