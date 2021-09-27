@@ -1,7 +1,7 @@
 ## Ejemplos Pseudocódigo (con solución)
 ### 1. ¿Qué muestra por pantalla?
 ``` 
-CONT = 1
+CONT = 0
 WHILE(CONT < 10)
    IF(CONT > 5) CONT = CONT + 2
    IF(CONT <= 5) CONT = CONT + 1
@@ -69,5 +69,5 @@ NUM = 10
 WHILE(NUM > 0)
    FACT = FACT * NUM
    NUM = NUM - 1
-PRINT(NUM)
+PRINT(FACT)
 ```
