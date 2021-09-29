@@ -12,3 +12,27 @@
 **Ejercicios**
 
 [Ejercicios del 1 al 6](./EJERCICIOS.md)
+
+## Sesión 2
+
+ * [Introducción al código](sesiones/sesion2.md).
+
+**Ejemplos**
+
+[Ejemplos del 1 al 6](./ejemplos/cppbasico.md)
+
+**Ejercicios**
+
+[Ejercicios del 7 al 12](./EJERCICIOS.md)
+
+## Sesión 3
+
+ * [Variables. Tipos simples](sesiones/sesion3.md).
+
+**Ejemplos**
+
+[Ejemplos del 7 al 12](./ejemplos/cppbasico.md)
+
+**Ejercicios**
+
+[Ejercicios del 13 al 18](./EJERCICIOS.md)
