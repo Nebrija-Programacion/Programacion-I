@@ -1,4 +1,4 @@
-## Ejemplos Pseudocódigo (con solución)
+## Ejemplos código básico (con solución)
 ### 1. Escribir en C++ el siguiente programa en pseudocódigo
 ``` 
 CONT = 1
@@ -153,7 +153,7 @@ NUM = 10
 WHILE(NUM > 0)
    FACT = FACT * NUM
    NUM = NUM - 1
-PRINT(NUM)
+PRINT(FACT)
 ```
 
 **Solución**
@@ -168,7 +168,7 @@ int main(){
       fact = fact * num;
       num = num - 1;
    }
-   std::cout << num << "\n";
+   std::cout << fact << "\n";
 }
 ```
 
