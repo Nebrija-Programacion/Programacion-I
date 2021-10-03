@@ -172,3 +172,117 @@ int main(){
 }
 ```
 
+**Los ejemplos del 7 al 12 son malas prácticas de programación, dado que declaran variables con el mismo nombre dentro de distintos ámbitos (variable shadowing)**
+
+### 7. ¿Qué muestra por pantalla el siguiente programa? ¿por qué?
+```cpp
+#include <iostream>
+
+int main() {
+  int a{3};
+  if(a == 3){
+    a = 4;
+  }
+  std::cout << a << "\n";
+}
+``` 
+
+ 1. El programa reserva en memoria un espacio para una variable de tipo `int` (entero) y le asocial la etiqueta (nombre de variable) `a`. Esta variable pertenece al ámbito de la función `main`.
+ 2. La varaible `a` se inicializa con un valor de `3`.
+ 3. Dentro del `if` se le asigna a la variable `a` un valor de `4`.
+ 4. Se muestra por pantalla el valor de `a`, que es `4`.
+
+### 8. ¿Qué muestra por pantalla el siguiente programa? ¿por qué?
+```cpp
+#include <iostream>
+
+int main() {
+  int a{3};
+  if(a == 3){
+    int a = 4;
+  }
+  std::cout << a << "\n";
+}
+``` 
+
+ 1. El programa reserva en memoria un espacio para una variable de tipo `int` (entero) y le asocial la etiqueta (nombre de variable) `a`. Esta variable pertenece al ámbito de la función `main`.
+ 2. La varaible `a` se inicializa con un valor de `3`.
+ 3. Dentro del `if` se declara una nueva variable, también con nombre `a` y se le asigna un valor de `4`. Esta variable `a` pertenece al ámbito del `if` y es diferente a la variable `a` del ámbito del `main`.
+ 4. Se muestra por pantalla el valor de `a` en el ámbito `main`, que es `3`.
+
+### 9. ¿Qué muestra por pantalla el siguiente programa? ¿por qué?
+```cpp
+#include <iostream>
+
+int main() {
+  int a{3};
+  if(a == 3){
+    int a = 4;
+    if(a == 4){
+       a++;
+    }
+    std::cout << a << "\n";
+  }
+  std::cout << a << "\n";
+}
+``` 
+
+ 1. El programa reserva en memoria un espacio para una variable de tipo `int` (entero) y le asocial la etiqueta (nombre de variable) `a`. Esta variable pertenece al ámbito de la función `main`.
+ 2. La varaible `a` se inicializa con un valor de `3`.
+ 3. Dentro del `if` se declara una nueva variable, también con nombre `a` y se le asigna un valor de `4`. Esta variable `a` pertenece al ámbito del `if` y es diferente a la variable `a` del ámbito del `main`.
+ 4. Dentro del segundo `if` se incrementa en una unidad la varaible `a` del ámbito del `if` que pasa a valer `5`.
+ 5. Se muestra por pantalla el valor de `a` en el ámbito `if`, que es `5`.
+ 6. Se muestra por pantalla el valor de `a` en el ámbito `main`, que es `3`.
+
+### 10. ¿Compila correctamente el siguiente programa? ¿por qué?
+
+```cpp
+#include <iostream>
+
+int main() {
+  char a{'b'};
+  if(a == b){
+    std::cout << "yay";
+  }
+}
+
+```
+No compila correctamente porque `b` no es un caracter, sería el nombre de una variable que no existe. Lo correcto sería:
+
+```cpp
+#include <iostream>
+
+int main() {
+  char a{'b'};
+  if(a == 'b'){
+    std::cout << "yay";
+  }
+}
+
+```
+
+### 11. ¿Qué muestra por pantalla el siguiente programa y por qué?
+
+```cpp
+#include <iostream>
+
+int main() {
+  int a{10};
+  int b{3};
+  std::cout << a/b << "\n";
+}
+```
+Se realiza la división entre 2 números de tipo `int` (esto se llama *división entera*) por lo que el resultado es un número entero, es decir `3`.
+
+### 12. ¿Qué muestra por pantalla el siguiente programa y por qué?
+
+```cpp
+#include <iostream>
+
+int main() {
+  int a{10};
+  float b{3};
+  std::cout << a/b << "\n";
+}
+```
+Se realiza la división entre 2 números, uno de tipo `int` y otro de tipo `float` (esto se llama *división decimal*) por lo que el resultado es un número decimal, es decir `3.3333`.
