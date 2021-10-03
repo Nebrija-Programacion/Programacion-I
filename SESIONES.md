@@ -33,6 +33,10 @@
 
 [Ejemplos del 7 al 12](./ejemplos/cppbasico.md)
 
+## Sesión 4
+
+ * [Control de flujo. std::string](sesiones/sesion4.md).
+
 **Ejercicios**
 
 [Ejercicios del 13 al 18](./EJERCICIOS.md)
