@@ -40,3 +40,11 @@
 **Ejercicios**
 
 [Ejercicios del 13 al 18](./EJERCICIOS.md)
+
+## Sesión 5
+
+ * [std::array](sesiones/sesion5.md).
+
+**Ejercicios**
+
+[Ejercicios del 19 al 25](./EJERCICIOS.md)
