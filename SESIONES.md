@@ -54,4 +54,6 @@
  * [std::vector](temario/datosstd/vector.md)).
  * [for-elem](temario/flujo/forelem.md)
 
+**Ejercicios**
+
 [Ejercicios del 22 al 31](./EJERCICIOS.md)
