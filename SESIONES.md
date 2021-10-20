@@ -47,4 +47,11 @@
 
 **Ejercicios**
 
-[Ejercicios del 19 al 25](./EJERCICIOS.md)
+[Ejercicios del 19 al 22](./EJERCICIOS.md)
+
+## Sesión 6
+
+ * [std::vector](temario/datosstd/vector.md)).
+ * [for-elem](temario/flujo/forelem.md)
+
+[Ejercicios del 22 al 31](./EJERCICIOS.md)

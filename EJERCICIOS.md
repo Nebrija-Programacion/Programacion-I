@@ -25,3 +25,9 @@
 23. Crear un programa que calcule la media de un array de números enteros.
 24. Crear un array de números enteros (entre el 1 y el 10) e indicar cuál es el número que más veces aparece (y cuántas veces aparece).
 25. Crear un array de números enteros e indicar cuántas veces seguidas aparece como máximo el número 7. Es decir, para el array {1,2,7,7,4,3,3,7,7,7,2} el número máximo de veces seguidas que aparece el 7 es 3. Aparece 2 veces seguidas, y 3 veces seguidas, por lo que el máximo es 3.
+26. Realizar un programa que recorra un array de valores enteros y busque si contiene el número 7. En caso de que lo contenga imprimir por pantalla la primera posición en la que aparezca.
+27. Realizar un programa que recorra un array de valores enteros y busque si contiene el número 7. En caso de que lo contenga imprimir por pantalla todas las posiciones en las que lo contiene.
+28. Crear un array de números enteros e indicar cuántas veces aparece el número 7.
+29. Crear un programa que calcule la media de un array de números enteros.
+30. Crear un array de números enteros (entre el 1 y el 10) e indicar cuál es el número que más veces aparece (y cuántas veces aparece).
+31. Crear un array de números enteros e indicar cuántas veces seguidas aparece como máximo el número 7. Es decir, para el array {1,2,7,7,4,3,3,7,7,7,2} el número máximo de veces seguidas que aparece el 7 es 3. Aparece 2 veces seguidas, y 3 veces seguidas, por lo que el máximo es 3.
