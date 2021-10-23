@@ -47,7 +47,7 @@
 
 **Ejercicios**
 
-[Ejercicios del 19 al 22](./EJERCICIOS.md)
+[Ejercicios del 19 al 25](./EJERCICIOS.md)
 
 ## Sesión 6
 
@@ -56,4 +56,4 @@
 
 **Ejercicios**
 
-[Ejercicios del 22 al 31](./EJERCICIOS.md)
+[Ejercicios del 25 al 32](./EJERCICIOS.md)
