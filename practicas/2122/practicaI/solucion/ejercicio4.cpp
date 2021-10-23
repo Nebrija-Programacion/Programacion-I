@@ -24,8 +24,8 @@ int main(){
     }
 
     // buscamos todos los "la" intermedios
-    if(cad.size() > 4){
-        for(int i{0}; i < (cad.size() - 4); i++){
+    if(cad.size() >= 4){
+        for(int i{0}; i =< (cad.size() - 4); i++){
             if(cad.substr(i,4) == " la ") {
                 contador++;
             }
