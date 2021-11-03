@@ -57,3 +57,9 @@
 **Ejercicios**
 
 [Ejercicios del 25 al 32](./EJERCICIOS.md)
+
+## Sesión 7
+
+ * [std::set](temario/datosstd/set.md).
+
+## Sesión 8
