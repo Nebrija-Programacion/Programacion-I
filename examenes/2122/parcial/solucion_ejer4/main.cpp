@@ -14,14 +14,14 @@ int main()
 
     while(jugador_1_in || jugador_2_in){
         if(jugador_1_in){
-            int numero = rand()%9 +1;
+            int numero = rand()%10 +1;
             puntos_jugador_1+=numero;
             std::cout << "Jugador 1, has sacado un " << numero << ", llevas " << puntos_jugador_1 << ". ¿Le plantas? (0: sí, 1: no): ";
             std::cin >> numero;
             if(numero == 0) jugador_1_in = false;
         }
         if(jugador_2_in){
-            int numero = rand()%9 +1;
+            int numero = rand()%10 +1;
             puntos_jugador_2+=numero;
             std::cout << "Jugador 2, has sacado un " << numero << ", llevas " << puntos_jugador_2 << ". ¿Le plantas? (0: sí, 1: no): ";
             std::cin >> numero;
