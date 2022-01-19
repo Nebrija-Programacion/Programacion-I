@@ -56,11 +56,11 @@ int main()
 {
     // parte 1
     srand(time(NULL));
-    auto data = createData(10, 5, 15);
+    auto data = createData(40, 5, 20);
     cout << "Los datos generados son: ";
     for(auto elem: data) cout << elem << " - ";
     cout << "\n";
-    cout << "La moda es: " << moda(data, 5, 15);
+    cout << "La moda es: " << moda(data, 5, 20);
     cout << "\n\n";
 
     // parte 2
